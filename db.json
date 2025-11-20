@@ -1,0 +1,76 @@
+{
+  "linhas": [
+    { "id": 1, "codigo": "101", "nome": "Centro indo para Zona Sul", "cor": "#1E90FF" },
+    { "id": 2, "codigo": "202", "nome": "Centro indo para Zona Norte", "cor": "#32CD32" },
+    { "id": 3, "codigo": "303", "nome": "Zona Oeste indo para Centro", "cor": "#FF4500" }
+  ],
+
+  "paradas": [
+    { "id": 1, "nome": "Terminal Central", "lat": -8.045, "lng": -34.870 },
+    { "id": 2, "nome": "Av. Paulista", "lat": -8.050, "lng": -34.872 },
+    { "id": 3, "nome": "Shopping Sul", "lat": -8.062, "lng": -34.885 },
+    { "id": 4, "nome": "Parque Norte", "lat": -8.033, "lng": -34.860 }
+  ],
+
+  "horariosOnibus": [
+    { "id": 1, "linha": "101", "horaPartida": "07:00", "horaChegada": "07:45" },
+    { "id": 2, "linha": "101", "horaPartida": "08:00", "horaChegada": "08:45" },
+    { "id": 3, "linha": "202", "horaPartida": "08:30", "horaChegada": "09:10" },
+    { "id": 4, "linha": "303", "horaPartida": "09:00", "horaChegada": "09:50" }
+  ],
+
+  "veiculos": [
+    { "id": 1, "linha": "101", "prefixo": "B-4501", "status": "operando", "velocidade": 32, "lat": -8.043, "lng": -34.871 },
+    { "id": 2, "linha": "101", "prefixo": "B-4502", "status": "parado", "velocidade": 0, "lat": -8.048, "lng": -34.875 },
+    { "id": 3, "linha": "202", "prefixo": "B-3301", "status": "operando", "velocidade": 28, "lat": -8.051, "lng": -34.860 },
+    { "id": 4, "linha": "303", "prefixo": "B-7704", "status": "manutenção", "velocidade": 0, "lat": -8.060, "lng": -34.890 }
+  ],
+
+  "rotasOnibus": [
+    {
+      "id": 1,
+      "linha": "101",
+      "pontos": [
+        { "lat": -8.045, "lng": -34.870 },
+        { "lat": -8.048, "lng": -34.875 },
+        { "lat": -8.053, "lng": -34.880 },
+        { "lat": -8.062, "lng": -34.885 }
+      ]
+    },
+    {
+      "id": 2,
+      "linha": "202",
+      "pontos": [
+        { "lat": -8.045, "lng": -34.870 },
+        { "lat": -8.042, "lng": -34.868 },
+        { "lat": -8.036, "lng": -34.862 },
+        { "lat": -8.033, "lng": -34.860 }
+      ]
+    }
+  ],
+
+  "transito": [
+    { "id": 1, "regiao": "Centro", "status": "Moderado", "velocidadeMedia": 25 },
+    { "id": 2, "regiao": "Zona Sul", "status": "Pesado", "velocidadeMedia": 12 },
+    { "id": 3, "regiao": "Zona Norte", "status": "Livre", "velocidadeMedia": 42 }
+  ],
+
+  "eventosTransito": [
+    { "id": 1, "tipo": "acidente", "regiao": "Centro", "descricao": "Colisão leve na Av. Central", "hora": "09:15" },
+    { "id": 2, "tipo": "obra", "regiao": "Zona Sul", "descricao": "Pista interditada parcialmente", "hora": "08:30" },
+    { "id": 3, "tipo": "bloqueio", "regiao": "Zona Norte", "descricao": "Manifestação local", "hora": "10:00" }
+  ],
+
+  "previsaoChegada": [
+    { "id": 1, "linha": "101", "paradaId": 1, "chegadaPrevista": "07:05" },
+    { "id": 2, "linha": "101", "paradaId": 2, "chegadaPrevista": "07:15" },
+    { "id": 3, "linha": "202", "paradaId": 4, "chegadaPrevista": "08:40" }
+  ],
+
+  "regioes": [
+    { "id": 1, "nome": "Centro", "congestionamento": 0.6 },
+    { "id": 2, "nome": "Zona Norte", "congestionamento": 0.1 },
+    { "id": 3, "nome": "Zona Sul", "congestionamento": 0.8 },
+    { "id": 4, "nome": "Zona Oeste", "congestionamento": 0.3 }
+  ]
+}
