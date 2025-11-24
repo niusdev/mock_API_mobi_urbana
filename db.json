@@ -1,76 +1,4070 @@
 {
   "linhas": [
-    { "id": 1, "codigo": "101", "nome": "Centro indo para Zona Sul", "cor": "#1E90FF" },
-    { "id": 2, "codigo": "202", "nome": "Centro indo para Zona Norte", "cor": "#32CD32" },
-    { "id": 3, "codigo": "303", "nome": "Zona Oeste indo para Centro", "cor": "#FF4500" }
+    {
+      "id": 1,
+      "codigo": "101",
+      "nome": "Linha 1",
+      "cor": "#75D707"
+    },
+    {
+      "id": 2,
+      "codigo": "102",
+      "nome": "Linha 2",
+      "cor": "#F80CAE"
+    },
+    {
+      "id": 3,
+      "codigo": "103",
+      "nome": "Linha 3",
+      "cor": "#8A0BCA"
+    },
+    {
+      "id": 4,
+      "codigo": "104",
+      "nome": "Linha 4",
+      "cor": "#9DCFD3"
+    },
+    {
+      "id": 5,
+      "codigo": "105",
+      "nome": "Linha 5",
+      "cor": "#7C421C"
+    },
+    {
+      "id": 6,
+      "codigo": "106",
+      "nome": "Linha 6",
+      "cor": "#D40917"
+    },
+    {
+      "id": 7,
+      "codigo": "107",
+      "nome": "Linha 7",
+      "cor": "#DB3DDE"
+    },
+    {
+      "id": 8,
+      "codigo": "108",
+      "nome": "Linha 8",
+      "cor": "#1A75F8"
+    },
+    {
+      "id": 9,
+      "codigo": "109",
+      "nome": "Linha 9",
+      "cor": "#42FF50"
+    },
+    {
+      "id": 10,
+      "codigo": "110",
+      "nome": "Linha 10",
+      "cor": "#51B60B"
+    },
+    {
+      "id": 11,
+      "codigo": "111",
+      "nome": "Linha 11",
+      "cor": "#343BA5"
+    },
+    {
+      "id": 12,
+      "codigo": "112",
+      "nome": "Linha 12",
+      "cor": "#129A6D"
+    },
+    {
+      "id": 13,
+      "codigo": "113",
+      "nome": "Linha 13",
+      "cor": "#1158BC"
+    },
+    {
+      "id": 14,
+      "codigo": "114",
+      "nome": "Linha 14",
+      "cor": "#42F142"
+    },
+    {
+      "id": 15,
+      "codigo": "115",
+      "nome": "Linha 15",
+      "cor": "#878A25"
+    },
+    {
+      "id": 16,
+      "codigo": "116",
+      "nome": "Linha 16",
+      "cor": "#427457"
+    },
+    {
+      "id": 17,
+      "codigo": "117",
+      "nome": "Linha 17",
+      "cor": "#31BA0E"
+    },
+    {
+      "id": 18,
+      "codigo": "118",
+      "nome": "Linha 18",
+      "cor": "#A0D7C8"
+    },
+    {
+      "id": 19,
+      "codigo": "119",
+      "nome": "Linha 19",
+      "cor": "#F663F4"
+    },
+    {
+      "id": 20,
+      "codigo": "120",
+      "nome": "Linha 20",
+      "cor": "#1A5DED"
+    },
+    {
+      "id": 21,
+      "codigo": "121",
+      "nome": "Linha 21",
+      "cor": "#03B20A"
+    },
+    {
+      "id": 22,
+      "codigo": "122",
+      "nome": "Linha 22",
+      "cor": "#B38777"
+    },
+    {
+      "id": 23,
+      "codigo": "123",
+      "nome": "Linha 23",
+      "cor": "#2BDFC5"
+    },
+    {
+      "id": 24,
+      "codigo": "124",
+      "nome": "Linha 24",
+      "cor": "#A90A32"
+    },
+    {
+      "id": 25,
+      "codigo": "125",
+      "nome": "Linha 25",
+      "cor": "#70F1E3"
+    },
+    {
+      "id": 26,
+      "codigo": "126",
+      "nome": "Linha 26",
+      "cor": "#EAF124"
+    },
+    {
+      "id": 27,
+      "codigo": "127",
+      "nome": "Linha 27",
+      "cor": "#DF0D7B"
+    },
+    {
+      "id": 28,
+      "codigo": "128",
+      "nome": "Linha 28",
+      "cor": "#09F56A"
+    },
+    {
+      "id": 29,
+      "codigo": "129",
+      "nome": "Linha 29",
+      "cor": "#9F8B90"
+    },
+    {
+      "id": 30,
+      "codigo": "130",
+      "nome": "Linha 30",
+      "cor": "#B1CD53"
+    },
+    {
+      "id": 31,
+      "codigo": "131",
+      "nome": "Linha 31",
+      "cor": "#5527BD"
+    },
+    {
+      "id": 32,
+      "codigo": "132",
+      "nome": "Linha 32",
+      "cor": "#A186E2"
+    },
+    {
+      "id": 33,
+      "codigo": "133",
+      "nome": "Linha 33",
+      "cor": "#F63C2E"
+    },
+    {
+      "id": 34,
+      "codigo": "134",
+      "nome": "Linha 34",
+      "cor": "#BD18C6"
+    },
+    {
+      "id": 35,
+      "codigo": "135",
+      "nome": "Linha 35",
+      "cor": "#AE8BA0"
+    },
+    {
+      "id": 36,
+      "codigo": "136",
+      "nome": "Linha 36",
+      "cor": "#3695F7"
+    },
+    {
+      "id": 37,
+      "codigo": "137",
+      "nome": "Linha 37",
+      "cor": "#38E90C"
+    },
+    {
+      "id": 38,
+      "codigo": "138",
+      "nome": "Linha 38",
+      "cor": "#F2F214"
+    },
+    {
+      "id": 39,
+      "codigo": "139",
+      "nome": "Linha 39",
+      "cor": "#BEEDB2"
+    },
+    {
+      "id": 40,
+      "codigo": "140",
+      "nome": "Linha 40",
+      "cor": "#86AF6B"
+    },
+    {
+      "id": 41,
+      "codigo": "141",
+      "nome": "Linha 41",
+      "cor": "#F58D01"
+    },
+    {
+      "id": 42,
+      "codigo": "142",
+      "nome": "Linha 42",
+      "cor": "#1D663D"
+    },
+    {
+      "id": 43,
+      "codigo": "143",
+      "nome": "Linha 43",
+      "cor": "#CC9C58"
+    },
+    {
+      "id": 44,
+      "codigo": "144",
+      "nome": "Linha 44",
+      "cor": "#884CF4"
+    },
+    {
+      "id": 45,
+      "codigo": "145",
+      "nome": "Linha 45",
+      "cor": "#E2E9B2"
+    },
+    {
+      "id": 46,
+      "codigo": "146",
+      "nome": "Linha 46",
+      "cor": "#AE3DC1"
+    },
+    {
+      "id": 47,
+      "codigo": "147",
+      "nome": "Linha 47",
+      "cor": "#ADC95F"
+    },
+    {
+      "id": 48,
+      "codigo": "148",
+      "nome": "Linha 48",
+      "cor": "#563B75"
+    },
+    {
+      "id": 49,
+      "codigo": "149",
+      "nome": "Linha 49",
+      "cor": "#64A69E"
+    },
+    {
+      "id": 50,
+      "codigo": "150",
+      "nome": "Linha 50",
+      "cor": "#339B9E"
+    }
   ],
-
-  "paradas": [
-    { "id": 1, "nome": "Terminal Central", "lat": -8.045, "lng": -34.870 },
-    { "id": 2, "nome": "Av. Paulista", "lat": -8.050, "lng": -34.872 },
-    { "id": 3, "nome": "Shopping Sul", "lat": -8.062, "lng": -34.885 },
-    { "id": 4, "nome": "Parque Norte", "lat": -8.033, "lng": -34.860 }
-  ],
-
   "horariosOnibus": [
-    { "id": 1, "linha": "101", "horaPartida": "07:00", "horaChegada": "07:45" },
-    { "id": 2, "linha": "101", "horaPartida": "08:00", "horaChegada": "08:45" },
-    { "id": 3, "linha": "202", "horaPartida": "08:30", "horaChegada": "09:10" },
-    { "id": 4, "linha": "303", "horaPartida": "09:00", "horaChegada": "09:50" }
+    {
+      "id": 1,
+      "linha": "101",
+      "saidaInicial": "08:03",
+      "chegadaFinal": "08:23"
+    },
+    {
+      "id": 2,
+      "linha": "128",
+      "saidaInicial": "09:06",
+      "chegadaFinal": "09:26"
+    },
+    {
+      "id": 3,
+      "linha": "111",
+      "saidaInicial": "10:09",
+      "chegadaFinal": "10:29"
+    },
+    {
+      "id": 4,
+      "linha": "126",
+      "saidaInicial": "11:12",
+      "chegadaFinal": "11:32"
+    },
+    {
+      "id": 5,
+      "linha": "106",
+      "saidaInicial": "12:15",
+      "chegadaFinal": "12:35"
+    },
+    {
+      "id": 6,
+      "linha": "134",
+      "saidaInicial": "13:18",
+      "chegadaFinal": "13:38"
+    },
+    {
+      "id": 7,
+      "linha": "139",
+      "saidaInicial": "14:21",
+      "chegadaFinal": "14:41"
+    },
+    {
+      "id": 8,
+      "linha": "146",
+      "saidaInicial": "15:24",
+      "chegadaFinal": "15:44"
+    },
+    {
+      "id": 9,
+      "linha": "131",
+      "saidaInicial": "16:27",
+      "chegadaFinal": "16:47"
+    },
+    {
+      "id": 10,
+      "linha": "150",
+      "saidaInicial": "07:30",
+      "chegadaFinal": "07:50"
+    },
+    {
+      "id": 11,
+      "linha": "126",
+      "saidaInicial": "08:33",
+      "chegadaFinal": "08:53"
+    },
+    {
+      "id": 12,
+      "linha": "138",
+      "saidaInicial": "09:36",
+      "chegadaFinal": "09:56"
+    },
+    {
+      "id": 13,
+      "linha": "144",
+      "saidaInicial": "10:39",
+      "chegadaFinal": "10:59"
+    },
+    {
+      "id": 14,
+      "linha": "120",
+      "saidaInicial": "11:42",
+      "chegadaFinal": "11:02"
+    },
+    {
+      "id": 15,
+      "linha": "121",
+      "saidaInicial": "12:45",
+      "chegadaFinal": "12:05"
+    },
+    {
+      "id": 16,
+      "linha": "102",
+      "saidaInicial": "13:48",
+      "chegadaFinal": "13:08"
+    },
+    {
+      "id": 17,
+      "linha": "103",
+      "saidaInicial": "14:51",
+      "chegadaFinal": "14:11"
+    },
+    {
+      "id": 18,
+      "linha": "110",
+      "saidaInicial": "15:54",
+      "chegadaFinal": "15:14"
+    },
+    {
+      "id": 19,
+      "linha": "111",
+      "saidaInicial": "16:57",
+      "chegadaFinal": "16:17"
+    },
+    {
+      "id": 20,
+      "linha": "110",
+      "saidaInicial": "07:00",
+      "chegadaFinal": "07:20"
+    },
+    {
+      "id": 21,
+      "linha": "143",
+      "saidaInicial": "08:03",
+      "chegadaFinal": "08:23"
+    },
+    {
+      "id": 22,
+      "linha": "103",
+      "saidaInicial": "09:06",
+      "chegadaFinal": "09:26"
+    },
+    {
+      "id": 23,
+      "linha": "118",
+      "saidaInicial": "10:09",
+      "chegadaFinal": "10:29"
+    },
+    {
+      "id": 24,
+      "linha": "148",
+      "saidaInicial": "11:12",
+      "chegadaFinal": "11:32"
+    },
+    {
+      "id": 25,
+      "linha": "139",
+      "saidaInicial": "12:15",
+      "chegadaFinal": "12:35"
+    },
+    {
+      "id": 26,
+      "linha": "140",
+      "saidaInicial": "13:18",
+      "chegadaFinal": "13:38"
+    },
+    {
+      "id": 27,
+      "linha": "127",
+      "saidaInicial": "14:21",
+      "chegadaFinal": "14:41"
+    },
+    {
+      "id": 28,
+      "linha": "115",
+      "saidaInicial": "15:24",
+      "chegadaFinal": "15:44"
+    },
+    {
+      "id": 29,
+      "linha": "110",
+      "saidaInicial": "16:27",
+      "chegadaFinal": "16:47"
+    },
+    {
+      "id": 30,
+      "linha": "121",
+      "saidaInicial": "07:30",
+      "chegadaFinal": "07:50"
+    },
+    {
+      "id": 31,
+      "linha": "117",
+      "saidaInicial": "08:33",
+      "chegadaFinal": "08:53"
+    },
+    {
+      "id": 32,
+      "linha": "132",
+      "saidaInicial": "09:36",
+      "chegadaFinal": "09:56"
+    },
+    {
+      "id": 33,
+      "linha": "116",
+      "saidaInicial": "10:39",
+      "chegadaFinal": "10:59"
+    },
+    {
+      "id": 34,
+      "linha": "107",
+      "saidaInicial": "11:42",
+      "chegadaFinal": "11:02"
+    },
+    {
+      "id": 35,
+      "linha": "132",
+      "saidaInicial": "12:45",
+      "chegadaFinal": "12:05"
+    },
+    {
+      "id": 36,
+      "linha": "107",
+      "saidaInicial": "13:48",
+      "chegadaFinal": "13:08"
+    },
+    {
+      "id": 37,
+      "linha": "146",
+      "saidaInicial": "14:51",
+      "chegadaFinal": "14:11"
+    },
+    {
+      "id": 38,
+      "linha": "133",
+      "saidaInicial": "15:54",
+      "chegadaFinal": "15:14"
+    },
+    {
+      "id": 39,
+      "linha": "139",
+      "saidaInicial": "16:57",
+      "chegadaFinal": "16:17"
+    },
+    {
+      "id": 40,
+      "linha": "116",
+      "saidaInicial": "07:00",
+      "chegadaFinal": "07:20"
+    },
+    {
+      "id": 41,
+      "linha": "135",
+      "saidaInicial": "08:03",
+      "chegadaFinal": "08:23"
+    },
+    {
+      "id": 42,
+      "linha": "119",
+      "saidaInicial": "09:06",
+      "chegadaFinal": "09:26"
+    },
+    {
+      "id": 43,
+      "linha": "150",
+      "saidaInicial": "10:09",
+      "chegadaFinal": "10:29"
+    },
+    {
+      "id": 44,
+      "linha": "106",
+      "saidaInicial": "11:12",
+      "chegadaFinal": "11:32"
+    },
+    {
+      "id": 45,
+      "linha": "148",
+      "saidaInicial": "12:15",
+      "chegadaFinal": "12:35"
+    },
+    {
+      "id": 46,
+      "linha": "102",
+      "saidaInicial": "13:18",
+      "chegadaFinal": "13:38"
+    },
+    {
+      "id": 47,
+      "linha": "126",
+      "saidaInicial": "14:21",
+      "chegadaFinal": "14:41"
+    },
+    {
+      "id": 48,
+      "linha": "131",
+      "saidaInicial": "15:24",
+      "chegadaFinal": "15:44"
+    },
+    {
+      "id": 49,
+      "linha": "118",
+      "saidaInicial": "16:27",
+      "chegadaFinal": "16:47"
+    },
+    {
+      "id": 50,
+      "linha": "134",
+      "saidaInicial": "07:30",
+      "chegadaFinal": "07:50"
+    }
   ],
-
+  "paradas": [
+    {
+      "id": 1,
+      "nome": "Parada 1",
+      "lat": -7.906485,
+      "lng": -34.778279
+    },
+    {
+      "id": 2,
+      "nome": "Parada 2",
+      "lat": -8.085347,
+      "lng": -34.799713
+    },
+    {
+      "id": 3,
+      "nome": "Parada 3",
+      "lat": -7.969955,
+      "lng": -34.783664
+    },
+    {
+      "id": 4,
+      "nome": "Parada 4",
+      "lat": -7.932426,
+      "lng": -34.859529
+    },
+    {
+      "id": 5,
+      "nome": "Parada 5",
+      "lat": -7.921985,
+      "lng": -34.782049
+    },
+    {
+      "id": 6,
+      "nome": "Parada 6",
+      "lat": -8.084406,
+      "lng": -34.850557
+    },
+    {
+      "id": 7,
+      "nome": "Parada 7",
+      "lat": -7.979585,
+      "lng": -34.770003
+    },
+    {
+      "id": 8,
+      "nome": "Parada 8",
+      "lat": -7.950861,
+      "lng": -34.885754
+    },
+    {
+      "id": 9,
+      "nome": "Parada 9",
+      "lat": -8.044813,
+      "lng": -34.85784
+    },
+    {
+      "id": 10,
+      "nome": "Parada 10",
+      "lat": -8.083624,
+      "lng": -34.810248
+    },
+    {
+      "id": 11,
+      "nome": "Parada 11",
+      "lat": -8.087093,
+      "lng": -34.912991
+    },
+    {
+      "id": 12,
+      "nome": "Parada 12",
+      "lat": -7.97527,
+      "lng": -34.844898
+    },
+    {
+      "id": 13,
+      "nome": "Parada 13",
+      "lat": -8.069853,
+      "lng": -34.923757
+    },
+    {
+      "id": 14,
+      "nome": "Parada 14",
+      "lat": -7.976171,
+      "lng": -34.901238
+    },
+    {
+      "id": 15,
+      "nome": "Parada 15",
+      "lat": -8.025598,
+      "lng": -34.873875
+    },
+    {
+      "id": 16,
+      "nome": "Parada 16",
+      "lat": -8.088263,
+      "lng": -34.846027
+    },
+    {
+      "id": 17,
+      "nome": "Parada 17",
+      "lat": -8.05277,
+      "lng": -34.750618
+    },
+    {
+      "id": 18,
+      "nome": "Parada 18",
+      "lat": -7.956215,
+      "lng": -34.780778
+    },
+    {
+      "id": 19,
+      "nome": "Parada 19",
+      "lat": -8.013547,
+      "lng": -34.905067
+    },
+    {
+      "id": 20,
+      "nome": "Parada 20",
+      "lat": -8.090603,
+      "lng": -34.919531
+    },
+    {
+      "id": 21,
+      "nome": "Parada 21",
+      "lat": -8.043892,
+      "lng": -34.794524
+    },
+    {
+      "id": 22,
+      "nome": "Parada 22",
+      "lat": -8.011444,
+      "lng": -34.852791
+    },
+    {
+      "id": 23,
+      "nome": "Parada 23",
+      "lat": -7.907173,
+      "lng": -34.912623
+    },
+    {
+      "id": 24,
+      "nome": "Parada 24",
+      "lat": -8.017972,
+      "lng": -34.855444
+    },
+    {
+      "id": 25,
+      "nome": "Parada 25",
+      "lat": -7.983259,
+      "lng": -34.850975
+    },
+    {
+      "id": 26,
+      "nome": "Parada 26",
+      "lat": -8.061977,
+      "lng": -34.834412
+    },
+    {
+      "id": 27,
+      "nome": "Parada 27",
+      "lat": -7.945329,
+      "lng": -34.837552
+    },
+    {
+      "id": 28,
+      "nome": "Parada 28",
+      "lat": -7.914608,
+      "lng": -34.762244
+    },
+    {
+      "id": 29,
+      "nome": "Parada 29",
+      "lat": -7.982031,
+      "lng": -34.796281
+    },
+    {
+      "id": 30,
+      "nome": "Parada 30",
+      "lat": -7.967576,
+      "lng": -34.843566
+    },
+    {
+      "id": 31,
+      "nome": "Parada 31",
+      "lat": -8.001005,
+      "lng": -34.847268
+    },
+    {
+      "id": 32,
+      "nome": "Parada 32",
+      "lat": -8.041726,
+      "lng": -34.825833
+    },
+    {
+      "id": 33,
+      "nome": "Parada 33",
+      "lat": -8.026627,
+      "lng": -34.922898
+    },
+    {
+      "id": 34,
+      "nome": "Parada 34",
+      "lat": -7.976885,
+      "lng": -34.765788
+    },
+    {
+      "id": 35,
+      "nome": "Parada 35",
+      "lat": -8.028276,
+      "lng": -34.891044
+    },
+    {
+      "id": 36,
+      "nome": "Parada 36",
+      "lat": -8.06787,
+      "lng": -34.941104
+    },
+    {
+      "id": 37,
+      "nome": "Parada 37",
+      "lat": -8.003077,
+      "lng": -34.849896
+    },
+    {
+      "id": 38,
+      "nome": "Parada 38",
+      "lat": -7.939591,
+      "lng": -34.948247
+    },
+    {
+      "id": 39,
+      "nome": "Parada 39",
+      "lat": -7.900033,
+      "lng": -34.834486
+    },
+    {
+      "id": 40,
+      "nome": "Parada 40",
+      "lat": -7.9029,
+      "lng": -34.808955
+    },
+    {
+      "id": 41,
+      "nome": "Parada 41",
+      "lat": -7.982824,
+      "lng": -34.906137
+    },
+    {
+      "id": 42,
+      "nome": "Parada 42",
+      "lat": -8.084704,
+      "lng": -34.946875
+    },
+    {
+      "id": 43,
+      "nome": "Parada 43",
+      "lat": -7.948458,
+      "lng": -34.830307
+    },
+    {
+      "id": 44,
+      "nome": "Parada 44",
+      "lat": -7.973464,
+      "lng": -34.83528
+    },
+    {
+      "id": 45,
+      "nome": "Parada 45",
+      "lat": -8.002576,
+      "lng": -34.889237
+    },
+    {
+      "id": 46,
+      "nome": "Parada 46",
+      "lat": -7.978446,
+      "lng": -34.880612
+    },
+    {
+      "id": 47,
+      "nome": "Parada 47",
+      "lat": -7.941125,
+      "lng": -34.856372
+    },
+    {
+      "id": 48,
+      "nome": "Parada 48",
+      "lat": -8.032949,
+      "lng": -34.809974
+    },
+    {
+      "id": 49,
+      "nome": "Parada 49",
+      "lat": -7.904669,
+      "lng": -34.784732
+    },
+    {
+      "id": 50,
+      "nome": "Parada 50",
+      "lat": -8.079495,
+      "lng": -34.838994
+    }
+  ],
   "veiculos": [
-    { "id": 1, "linha": "101", "prefixo": "B-4501", "status": "operando", "velocidade": 32, "lat": -8.043, "lng": -34.871 },
-    { "id": 2, "linha": "101", "prefixo": "B-4502", "status": "parado", "velocidade": 0, "lat": -8.048, "lng": -34.875 },
-    { "id": 3, "linha": "202", "prefixo": "B-3301", "status": "operando", "velocidade": 28, "lat": -8.051, "lng": -34.860 },
-    { "id": 4, "linha": "303", "prefixo": "B-7704", "status": "manutenção", "velocidade": 0, "lat": -8.060, "lng": -34.890 }
+    {
+      "id": 1,
+      "linha": "136",
+      "placa": "B-4001",
+      "status": "operando",
+      "velocidade": 60,
+      "lat": -8.051634,
+      "lng": -34.777962
+    },
+    {
+      "id": 2,
+      "linha": "117",
+      "placa": "B-4002",
+      "status": "manutenção",
+      "velocidade": 43,
+      "lat": -7.917298,
+      "lng": -34.85302
+    },
+    {
+      "id": 3,
+      "linha": "116",
+      "placa": "B-4003",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.934945,
+      "lng": -34.836135
+    },
+    {
+      "id": 4,
+      "linha": "105",
+      "placa": "B-4004",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -8.047658,
+      "lng": -34.923666
+    },
+    {
+      "id": 5,
+      "linha": "102",
+      "placa": "B-4005",
+      "status": "operando",
+      "velocidade": 37,
+      "lat": -8.06315,
+      "lng": -34.757994
+    },
+    {
+      "id": 6,
+      "linha": "133",
+      "placa": "B-4006",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.954787,
+      "lng": -34.933579
+    },
+    {
+      "id": 7,
+      "linha": "125",
+      "placa": "B-4007",
+      "status": "manutenção",
+      "velocidade": 39,
+      "lat": -8.09491,
+      "lng": -34.876402
+    },
+    {
+      "id": 8,
+      "linha": "119",
+      "placa": "B-4008",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.916559,
+      "lng": -34.942631
+    },
+    {
+      "id": 9,
+      "linha": "124",
+      "placa": "B-4009",
+      "status": "operando",
+      "velocidade": 6,
+      "lat": -7.969328,
+      "lng": -34.869479
+    },
+    {
+      "id": 10,
+      "linha": "137",
+      "placa": "B-4010",
+      "status": "operando",
+      "velocidade": 59,
+      "lat": -8.021006,
+      "lng": -34.830888
+    },
+    {
+      "id": 11,
+      "linha": "133",
+      "placa": "B-4011",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.943861,
+      "lng": -34.930986
+    },
+    {
+      "id": 12,
+      "linha": "145",
+      "placa": "B-4012",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -8.02664,
+      "lng": -34.77955
+    },
+    {
+      "id": 13,
+      "linha": "138",
+      "placa": "B-4013",
+      "status": "manutenção",
+      "velocidade": 50,
+      "lat": -7.992823,
+      "lng": -34.780106
+    },
+    {
+      "id": 14,
+      "linha": "142",
+      "placa": "B-4014",
+      "status": "manutenção",
+      "velocidade": 4,
+      "lat": -8.019084,
+      "lng": -34.933819
+    },
+    {
+      "id": 15,
+      "linha": "108",
+      "placa": "B-4015",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.974039,
+      "lng": -34.78589
+    },
+    {
+      "id": 16,
+      "linha": "128",
+      "placa": "B-4016",
+      "status": "manutenção",
+      "velocidade": 21,
+      "lat": -7.909036,
+      "lng": -34.857189
+    },
+    {
+      "id": 17,
+      "linha": "128",
+      "placa": "B-4017",
+      "status": "operando",
+      "velocidade": 31,
+      "lat": -8.016343,
+      "lng": -34.88478
+    },
+    {
+      "id": 18,
+      "linha": "123",
+      "placa": "B-4018",
+      "status": "operando",
+      "velocidade": 46,
+      "lat": -8.086556,
+      "lng": -34.884322
+    },
+    {
+      "id": 19,
+      "linha": "132",
+      "placa": "B-4019",
+      "status": "operando",
+      "velocidade": 56,
+      "lat": -8.078889,
+      "lng": -34.813817
+    },
+    {
+      "id": 20,
+      "linha": "144",
+      "placa": "B-4020",
+      "status": "manutenção",
+      "velocidade": 33,
+      "lat": -7.984776,
+      "lng": -34.925042
+    },
+    {
+      "id": 21,
+      "linha": "141",
+      "placa": "B-4021",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -8.016005,
+      "lng": -34.758922
+    },
+    {
+      "id": 22,
+      "linha": "120",
+      "placa": "B-4022",
+      "status": "operando",
+      "velocidade": 14,
+      "lat": -8.051438,
+      "lng": -34.918216
+    },
+    {
+      "id": 23,
+      "linha": "110",
+      "placa": "B-4023",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -8.056155,
+      "lng": -34.858907
+    },
+    {
+      "id": 24,
+      "linha": "120",
+      "placa": "B-4024",
+      "status": "manutenção",
+      "velocidade": 38,
+      "lat": -8.05206,
+      "lng": -34.83583
+    },
+    {
+      "id": 25,
+      "linha": "124",
+      "placa": "B-4025",
+      "status": "operando",
+      "velocidade": 59,
+      "lat": -8.02082,
+      "lng": -34.762027
+    },
+    {
+      "id": 26,
+      "linha": "139",
+      "placa": "B-4026",
+      "status": "manutenção",
+      "velocidade": 1,
+      "lat": -8.083973,
+      "lng": -34.845677
+    },
+    {
+      "id": 27,
+      "linha": "147",
+      "placa": "B-4027",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.972098,
+      "lng": -34.798416
+    },
+    {
+      "id": 28,
+      "linha": "135",
+      "placa": "B-4028",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -8.008858,
+      "lng": -34.929273
+    },
+    {
+      "id": 29,
+      "linha": "123",
+      "placa": "B-4029",
+      "status": "operando",
+      "velocidade": 46,
+      "lat": -7.927752,
+      "lng": -34.918031
+    },
+    {
+      "id": 30,
+      "linha": "142",
+      "placa": "B-4030",
+      "status": "operando",
+      "velocidade": 27,
+      "lat": -8.015309,
+      "lng": -34.894339
+    },
+    {
+      "id": 31,
+      "linha": "132",
+      "placa": "B-4031",
+      "status": "operando",
+      "velocidade": 33,
+      "lat": -8.026182,
+      "lng": -34.889309
+    },
+    {
+      "id": 32,
+      "linha": "112",
+      "placa": "B-4032",
+      "status": "operando",
+      "velocidade": 33,
+      "lat": -7.912567,
+      "lng": -34.870642
+    },
+    {
+      "id": 33,
+      "linha": "115",
+      "placa": "B-4033",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -8.080411,
+      "lng": -34.807901
+    },
+    {
+      "id": 34,
+      "linha": "136",
+      "placa": "B-4034",
+      "status": "manutenção",
+      "velocidade": 36,
+      "lat": -7.979755,
+      "lng": -34.884714
+    },
+    {
+      "id": 35,
+      "linha": "122",
+      "placa": "B-4035",
+      "status": "operando",
+      "velocidade": 26,
+      "lat": -8.060396,
+      "lng": -34.770002
+    },
+    {
+      "id": 36,
+      "linha": "133",
+      "placa": "B-4036",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.998374,
+      "lng": -34.88777
+    },
+    {
+      "id": 37,
+      "linha": "143",
+      "placa": "B-4037",
+      "status": "operando",
+      "velocidade": 46,
+      "lat": -8.089112,
+      "lng": -34.814325
+    },
+    {
+      "id": 38,
+      "linha": "133",
+      "placa": "B-4038",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.935412,
+      "lng": -34.78353
+    },
+    {
+      "id": 39,
+      "linha": "110",
+      "placa": "B-4039",
+      "status": "operando",
+      "velocidade": 33,
+      "lat": -8.077923,
+      "lng": -34.768392
+    },
+    {
+      "id": 40,
+      "linha": "105",
+      "placa": "B-4040",
+      "status": "operando",
+      "velocidade": 19,
+      "lat": -7.943382,
+      "lng": -34.928747
+    },
+    {
+      "id": 41,
+      "linha": "118",
+      "placa": "B-4041",
+      "status": "operando",
+      "velocidade": 44,
+      "lat": -8.077311,
+      "lng": -34.845688
+    },
+    {
+      "id": 42,
+      "linha": "140",
+      "placa": "B-4042",
+      "status": "operando",
+      "velocidade": 22,
+      "lat": -8.045152,
+      "lng": -34.800598
+    },
+    {
+      "id": 43,
+      "linha": "114",
+      "placa": "B-4043",
+      "status": "manutenção",
+      "velocidade": 30,
+      "lat": -8.035611,
+      "lng": -34.814184
+    },
+    {
+      "id": 44,
+      "linha": "150",
+      "placa": "B-4044",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -7.955543,
+      "lng": -34.846466
+    },
+    {
+      "id": 45,
+      "linha": "134",
+      "placa": "B-4045",
+      "status": "operando",
+      "velocidade": 7,
+      "lat": -7.946228,
+      "lng": -34.776375
+    },
+    {
+      "id": 46,
+      "linha": "101",
+      "placa": "B-4046",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -8.042919,
+      "lng": -34.906827
+    },
+    {
+      "id": 47,
+      "linha": "149",
+      "placa": "B-4047",
+      "status": "parado",
+      "velocidade": 0,
+      "lat": -8.014642,
+      "lng": -34.945654
+    },
+    {
+      "id": 48,
+      "linha": "105",
+      "placa": "B-4048",
+      "status": "operando",
+      "velocidade": 12,
+      "lat": -8.075105,
+      "lng": -34.948743
+    },
+    {
+      "id": 49,
+      "linha": "126",
+      "placa": "B-4049",
+      "status": "manutenção",
+      "velocidade": 33,
+      "lat": -8.016872,
+      "lng": -34.762752
+    },
+    {
+      "id": 50,
+      "linha": "149",
+      "placa": "B-4050",
+      "status": "manutenção",
+      "velocidade": 38,
+      "lat": -7.998168,
+      "lng": -34.86099
+    }
   ],
-
+  "transito": [
+    {
+      "id": 1,
+      "regiao": "Região 1",
+      "status": "Moderado",
+      "velocidadeMedia": 31
+    },
+    {
+      "id": 2,
+      "regiao": "Região 2",
+      "status": "Leve",
+      "velocidadeMedia": 33
+    },
+    {
+      "id": 3,
+      "regiao": "Região 3",
+      "status": "Moderado",
+      "velocidadeMedia": 57
+    },
+    {
+      "id": 4,
+      "regiao": "Região 4",
+      "status": "Intenso",
+      "velocidadeMedia": 20
+    },
+    {
+      "id": 5,
+      "regiao": "Região 5",
+      "status": "Moderado",
+      "velocidadeMedia": 40
+    },
+    {
+      "id": 6,
+      "regiao": "Região 6",
+      "status": "Leve",
+      "velocidadeMedia": 38
+    },
+    {
+      "id": 7,
+      "regiao": "Região 7",
+      "status": "Intenso",
+      "velocidadeMedia": 56
+    },
+    {
+      "id": 8,
+      "regiao": "Região 8",
+      "status": "Leve",
+      "velocidadeMedia": 7
+    },
+    {
+      "id": 9,
+      "regiao": "Região 9",
+      "status": "Leve",
+      "velocidadeMedia": 5
+    },
+    {
+      "id": 10,
+      "regiao": "Região 10",
+      "status": "Leve",
+      "velocidadeMedia": 31
+    },
+    {
+      "id": 11,
+      "regiao": "Região 11",
+      "status": "Intenso",
+      "velocidadeMedia": 9
+    },
+    {
+      "id": 12,
+      "regiao": "Região 12",
+      "status": "Intenso",
+      "velocidadeMedia": 44
+    },
+    {
+      "id": 13,
+      "regiao": "Região 13",
+      "status": "Leve",
+      "velocidadeMedia": 56
+    },
+    {
+      "id": 14,
+      "regiao": "Região 14",
+      "status": "Leve",
+      "velocidadeMedia": 54
+    },
+    {
+      "id": 15,
+      "regiao": "Região 15",
+      "status": "Leve",
+      "velocidadeMedia": 37
+    },
+    {
+      "id": 16,
+      "regiao": "Região 16",
+      "status": "Moderado",
+      "velocidadeMedia": 58
+    },
+    {
+      "id": 17,
+      "regiao": "Região 17",
+      "status": "Leve",
+      "velocidadeMedia": 8
+    },
+    {
+      "id": 18,
+      "regiao": "Região 18",
+      "status": "Intenso",
+      "velocidadeMedia": 12
+    },
+    {
+      "id": 19,
+      "regiao": "Região 19",
+      "status": "Moderado",
+      "velocidadeMedia": 48
+    },
+    {
+      "id": 20,
+      "regiao": "Região 20",
+      "status": "Leve",
+      "velocidadeMedia": 49
+    },
+    {
+      "id": 21,
+      "regiao": "Região 21",
+      "status": "Leve",
+      "velocidadeMedia": 51
+    },
+    {
+      "id": 22,
+      "regiao": "Região 22",
+      "status": "Moderado",
+      "velocidadeMedia": 23
+    },
+    {
+      "id": 23,
+      "regiao": "Região 23",
+      "status": "Moderado",
+      "velocidadeMedia": 52
+    },
+    {
+      "id": 24,
+      "regiao": "Região 24",
+      "status": "Moderado",
+      "velocidadeMedia": 35
+    },
+    {
+      "id": 25,
+      "regiao": "Região 25",
+      "status": "Moderado",
+      "velocidadeMedia": 55
+    },
+    {
+      "id": 26,
+      "regiao": "Região 26",
+      "status": "Leve",
+      "velocidadeMedia": 33
+    },
+    {
+      "id": 27,
+      "regiao": "Região 27",
+      "status": "Intenso",
+      "velocidadeMedia": 37
+    },
+    {
+      "id": 28,
+      "regiao": "Região 28",
+      "status": "Leve",
+      "velocidadeMedia": 40
+    },
+    {
+      "id": 29,
+      "regiao": "Região 29",
+      "status": "Moderado",
+      "velocidadeMedia": 34
+    },
+    {
+      "id": 30,
+      "regiao": "Região 30",
+      "status": "Leve",
+      "velocidadeMedia": 22
+    },
+    {
+      "id": 31,
+      "regiao": "Região 31",
+      "status": "Leve",
+      "velocidadeMedia": 16
+    },
+    {
+      "id": 32,
+      "regiao": "Região 32",
+      "status": "Leve",
+      "velocidadeMedia": 13
+    },
+    {
+      "id": 33,
+      "regiao": "Região 33",
+      "status": "Intenso",
+      "velocidadeMedia": 22
+    },
+    {
+      "id": 34,
+      "regiao": "Região 34",
+      "status": "Intenso",
+      "velocidadeMedia": 15
+    },
+    {
+      "id": 35,
+      "regiao": "Região 35",
+      "status": "Leve",
+      "velocidadeMedia": 51
+    },
+    {
+      "id": 36,
+      "regiao": "Região 36",
+      "status": "Intenso",
+      "velocidadeMedia": 34
+    },
+    {
+      "id": 37,
+      "regiao": "Região 37",
+      "status": "Leve",
+      "velocidadeMedia": 33
+    },
+    {
+      "id": 38,
+      "regiao": "Região 38",
+      "status": "Intenso",
+      "velocidadeMedia": 5
+    },
+    {
+      "id": 39,
+      "regiao": "Região 39",
+      "status": "Leve",
+      "velocidadeMedia": 60
+    },
+    {
+      "id": 40,
+      "regiao": "Região 40",
+      "status": "Leve",
+      "velocidadeMedia": 53
+    },
+    {
+      "id": 41,
+      "regiao": "Região 41",
+      "status": "Leve",
+      "velocidadeMedia": 16
+    },
+    {
+      "id": 42,
+      "regiao": "Região 42",
+      "status": "Leve",
+      "velocidadeMedia": 60
+    },
+    {
+      "id": 43,
+      "regiao": "Região 43",
+      "status": "Moderado",
+      "velocidadeMedia": 26
+    },
+    {
+      "id": 44,
+      "regiao": "Região 44",
+      "status": "Intenso",
+      "velocidadeMedia": 27
+    },
+    {
+      "id": 45,
+      "regiao": "Região 45",
+      "status": "Moderado",
+      "velocidadeMedia": 58
+    },
+    {
+      "id": 46,
+      "regiao": "Região 46",
+      "status": "Moderado",
+      "velocidadeMedia": 17
+    },
+    {
+      "id": 47,
+      "regiao": "Região 47",
+      "status": "Intenso",
+      "velocidadeMedia": 55
+    },
+    {
+      "id": 48,
+      "regiao": "Região 48",
+      "status": "Intenso",
+      "velocidadeMedia": 56
+    },
+    {
+      "id": 49,
+      "regiao": "Região 49",
+      "status": "Intenso",
+      "velocidadeMedia": 34
+    },
+    {
+      "id": 50,
+      "regiao": "Região 50",
+      "status": "Intenso",
+      "velocidadeMedia": 56
+    }
+  ],
   "rotasOnibus": [
     {
       "id": 1,
       "linha": "101",
       "pontos": [
-        { "lat": -8.045, "lng": -34.870 },
-        { "lat": -8.048, "lng": -34.875 },
-        { "lat": -8.053, "lng": -34.880 },
-        { "lat": -8.062, "lng": -34.885 }
+        {
+          "lat": -7.965324,
+          "lng": -34.904124
+        },
+        {
+          "lat": -8.051887,
+          "lng": -34.800332
+        },
+        {
+          "lat": -8.063438,
+          "lng": -34.773324
+        },
+        {
+          "lat": -8.072273,
+          "lng": -34.764531
+        },
+        {
+          "lat": -8.012709,
+          "lng": -34.858515
+        },
+        {
+          "lat": -7.982251,
+          "lng": -34.91848
+        }
       ]
     },
     {
       "id": 2,
-      "linha": "202",
+      "linha": "102",
       "pontos": [
-        { "lat": -8.045, "lng": -34.870 },
-        { "lat": -8.042, "lng": -34.868 },
-        { "lat": -8.036, "lng": -34.862 },
-        { "lat": -8.033, "lng": -34.860 }
+        {
+          "lat": -8.055586,
+          "lng": -34.929919
+        },
+        {
+          "lat": -7.97382,
+          "lng": -34.885865
+        },
+        {
+          "lat": -8.053004,
+          "lng": -34.860209
+        },
+        {
+          "lat": -8.0105,
+          "lng": -34.805421
+        },
+        {
+          "lat": -7.940359,
+          "lng": -34.804911
+        },
+        {
+          "lat": -7.986126,
+          "lng": -34.755456
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "linha": "103",
+      "pontos": [
+        {
+          "lat": -7.995423,
+          "lng": -34.755077
+        },
+        {
+          "lat": -8.074964,
+          "lng": -34.76249
+        },
+        {
+          "lat": -7.940749,
+          "lng": -34.781173
+        },
+        {
+          "lat": -7.993441,
+          "lng": -34.788653
+        },
+        {
+          "lat": -7.941367,
+          "lng": -34.83516
+        },
+        {
+          "lat": -7.947606,
+          "lng": -34.902658
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "linha": "104",
+      "pontos": [
+        {
+          "lat": -8.06144,
+          "lng": -34.936065
+        },
+        {
+          "lat": -7.944235,
+          "lng": -34.773563
+        },
+        {
+          "lat": -8.097125,
+          "lng": -34.839363
+        },
+        {
+          "lat": -7.932438,
+          "lng": -34.795
+        },
+        {
+          "lat": -7.980329,
+          "lng": -34.8466
+        },
+        {
+          "lat": -8.018572,
+          "lng": -34.830721
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "linha": "105",
+      "pontos": [
+        {
+          "lat": -8.023189,
+          "lng": -34.756345
+        },
+        {
+          "lat": -8.02164,
+          "lng": -34.883935
+        },
+        {
+          "lat": -8.073036,
+          "lng": -34.769321
+        },
+        {
+          "lat": -8.031804,
+          "lng": -34.901734
+        },
+        {
+          "lat": -7.911828,
+          "lng": -34.87563
+        },
+        {
+          "lat": -8.044957,
+          "lng": -34.818406
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "linha": "106",
+      "pontos": [
+        {
+          "lat": -8.07975,
+          "lng": -34.871982
+        },
+        {
+          "lat": -7.95344,
+          "lng": -34.795864
+        },
+        {
+          "lat": -7.907326,
+          "lng": -34.806141
+        },
+        {
+          "lat": -8.058409,
+          "lng": -34.773665
+        },
+        {
+          "lat": -7.900519,
+          "lng": -34.895318
+        },
+        {
+          "lat": -8.083576,
+          "lng": -34.786411
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "linha": "107",
+      "pontos": [
+        {
+          "lat": -7.912156,
+          "lng": -34.860946
+        },
+        {
+          "lat": -8.086506,
+          "lng": -34.79064
+        },
+        {
+          "lat": -7.952169,
+          "lng": -34.938404
+        },
+        {
+          "lat": -7.98771,
+          "lng": -34.753815
+        },
+        {
+          "lat": -7.934544,
+          "lng": -34.919715
+        },
+        {
+          "lat": -8.000565,
+          "lng": -34.87775
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "linha": "108",
+      "pontos": [
+        {
+          "lat": -8.093767,
+          "lng": -34.918867
+        },
+        {
+          "lat": -8.079634,
+          "lng": -34.908495
+        },
+        {
+          "lat": -7.945848,
+          "lng": -34.799224
+        },
+        {
+          "lat": -8.048421,
+          "lng": -34.779359
+        },
+        {
+          "lat": -8.06353,
+          "lng": -34.761718
+        },
+        {
+          "lat": -8.083344,
+          "lng": -34.850982
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "linha": "109",
+      "pontos": [
+        {
+          "lat": -8.065244,
+          "lng": -34.81591
+        },
+        {
+          "lat": -8.073648,
+          "lng": -34.916057
+        },
+        {
+          "lat": -8.083179,
+          "lng": -34.915113
+        },
+        {
+          "lat": -8.022799,
+          "lng": -34.833437
+        },
+        {
+          "lat": -8.032537,
+          "lng": -34.81976
+        },
+        {
+          "lat": -8.037415,
+          "lng": -34.769806
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "linha": "110",
+      "pontos": [
+        {
+          "lat": -8.041501,
+          "lng": -34.944619
+        },
+        {
+          "lat": -8.056518,
+          "lng": -34.93861
+        },
+        {
+          "lat": -8.034365,
+          "lng": -34.889347
+        },
+        {
+          "lat": -7.94927,
+          "lng": -34.911246
+        },
+        {
+          "lat": -7.910027,
+          "lng": -34.818608
+        },
+        {
+          "lat": -8.022543,
+          "lng": -34.791911
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "linha": "111",
+      "pontos": [
+        {
+          "lat": -8.044353,
+          "lng": -34.948215
+        },
+        {
+          "lat": -8.007454,
+          "lng": -34.840685
+        },
+        {
+          "lat": -8.078738,
+          "lng": -34.79736
+        },
+        {
+          "lat": -8.06808,
+          "lng": -34.858813
+        },
+        {
+          "lat": -8.097093,
+          "lng": -34.833828
+        },
+        {
+          "lat": -7.948325,
+          "lng": -34.794833
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "linha": "112",
+      "pontos": [
+        {
+          "lat": -8.037056,
+          "lng": -34.904705
+        },
+        {
+          "lat": -7.968434,
+          "lng": -34.755103
+        },
+        {
+          "lat": -8.032387,
+          "lng": -34.851248
+        },
+        {
+          "lat": -7.964733,
+          "lng": -34.867611
+        },
+        {
+          "lat": -7.990717,
+          "lng": -34.854277
+        },
+        {
+          "lat": -8.039573,
+          "lng": -34.783124
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "linha": "113",
+      "pontos": [
+        {
+          "lat": -7.944108,
+          "lng": -34.756148
+        },
+        {
+          "lat": -7.940618,
+          "lng": -34.949745
+        },
+        {
+          "lat": -7.993647,
+          "lng": -34.885902
+        },
+        {
+          "lat": -7.991393,
+          "lng": -34.914765
+        },
+        {
+          "lat": -8.092267,
+          "lng": -34.781992
+        },
+        {
+          "lat": -7.926458,
+          "lng": -34.816057
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "linha": "114",
+      "pontos": [
+        {
+          "lat": -8.002842,
+          "lng": -34.881218
+        },
+        {
+          "lat": -8.066493,
+          "lng": -34.922355
+        },
+        {
+          "lat": -8.060651,
+          "lng": -34.871737
+        },
+        {
+          "lat": -7.99449,
+          "lng": -34.947558
+        },
+        {
+          "lat": -7.959664,
+          "lng": -34.904393
+        },
+        {
+          "lat": -7.981304,
+          "lng": -34.845786
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "linha": "115",
+      "pontos": [
+        {
+          "lat": -8.055354,
+          "lng": -34.869062
+        },
+        {
+          "lat": -8.09382,
+          "lng": -34.902564
+        },
+        {
+          "lat": -8.074882,
+          "lng": -34.773695
+        },
+        {
+          "lat": -7.93852,
+          "lng": -34.863036
+        },
+        {
+          "lat": -8.093914,
+          "lng": -34.77222
+        },
+        {
+          "lat": -8.037208,
+          "lng": -34.786388
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "linha": "116",
+      "pontos": [
+        {
+          "lat": -8.032899,
+          "lng": -34.800161
+        },
+        {
+          "lat": -7.993228,
+          "lng": -34.869798
+        },
+        {
+          "lat": -8.034003,
+          "lng": -34.763129
+        },
+        {
+          "lat": -7.97009,
+          "lng": -34.909893
+        },
+        {
+          "lat": -8.021397,
+          "lng": -34.844423
+        },
+        {
+          "lat": -7.920312,
+          "lng": -34.807843
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "linha": "117",
+      "pontos": [
+        {
+          "lat": -7.987255,
+          "lng": -34.795461
+        },
+        {
+          "lat": -8.09152,
+          "lng": -34.937645
+        },
+        {
+          "lat": -7.911013,
+          "lng": -34.882176
+        },
+        {
+          "lat": -7.918124,
+          "lng": -34.796779
+        },
+        {
+          "lat": -7.912766,
+          "lng": -34.84061
+        },
+        {
+          "lat": -8.024631,
+          "lng": -34.841271
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "linha": "118",
+      "pontos": [
+        {
+          "lat": -7.914952,
+          "lng": -34.936766
+        },
+        {
+          "lat": -7.926019,
+          "lng": -34.938808
+        },
+        {
+          "lat": -7.959319,
+          "lng": -34.823681
+        },
+        {
+          "lat": -7.975786,
+          "lng": -34.780944
+        },
+        {
+          "lat": -7.973738,
+          "lng": -34.777292
+        },
+        {
+          "lat": -8.05066,
+          "lng": -34.786612
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "linha": "119",
+      "pontos": [
+        {
+          "lat": -8.038369,
+          "lng": -34.8235
+        },
+        {
+          "lat": -7.980167,
+          "lng": -34.822327
+        },
+        {
+          "lat": -8.068491,
+          "lng": -34.772054
+        },
+        {
+          "lat": -8.077483,
+          "lng": -34.760897
+        },
+        {
+          "lat": -8.021591,
+          "lng": -34.840139
+        },
+        {
+          "lat": -8.02336,
+          "lng": -34.871292
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "linha": "120",
+      "pontos": [
+        {
+          "lat": -8.02965,
+          "lng": -34.938397
+        },
+        {
+          "lat": -8.027694,
+          "lng": -34.75771
+        },
+        {
+          "lat": -8.089321,
+          "lng": -34.937406
+        },
+        {
+          "lat": -8.038887,
+          "lng": -34.943983
+        },
+        {
+          "lat": -7.912126,
+          "lng": -34.855224
+        },
+        {
+          "lat": -8.060504,
+          "lng": -34.87673
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "linha": "121",
+      "pontos": [
+        {
+          "lat": -8.074034,
+          "lng": -34.948592
+        },
+        {
+          "lat": -8.012974,
+          "lng": -34.861664
+        },
+        {
+          "lat": -7.926131,
+          "lng": -34.904994
+        },
+        {
+          "lat": -7.970842,
+          "lng": -34.906402
+        },
+        {
+          "lat": -8.020545,
+          "lng": -34.86981
+        },
+        {
+          "lat": -7.936399,
+          "lng": -34.85256
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "linha": "122",
+      "pontos": [
+        {
+          "lat": -7.921646,
+          "lng": -34.832671
+        },
+        {
+          "lat": -7.965771,
+          "lng": -34.873526
+        },
+        {
+          "lat": -8.062133,
+          "lng": -34.808104
+        },
+        {
+          "lat": -7.99554,
+          "lng": -34.860868
+        },
+        {
+          "lat": -8.040971,
+          "lng": -34.93697
+        },
+        {
+          "lat": -7.977651,
+          "lng": -34.867037
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "linha": "123",
+      "pontos": [
+        {
+          "lat": -7.915945,
+          "lng": -34.936011
+        },
+        {
+          "lat": -8.066592,
+          "lng": -34.755886
+        },
+        {
+          "lat": -8.023491,
+          "lng": -34.852642
+        },
+        {
+          "lat": -8.058806,
+          "lng": -34.803897
+        },
+        {
+          "lat": -7.99178,
+          "lng": -34.947236
+        },
+        {
+          "lat": -8.004566,
+          "lng": -34.935036
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "linha": "124",
+      "pontos": [
+        {
+          "lat": -7.915422,
+          "lng": -34.778583
+        },
+        {
+          "lat": -8.06642,
+          "lng": -34.789759
+        },
+        {
+          "lat": -8.034824,
+          "lng": -34.867497
+        },
+        {
+          "lat": -8.044056,
+          "lng": -34.870128
+        },
+        {
+          "lat": -7.970405,
+          "lng": -34.902324
+        },
+        {
+          "lat": -8.046031,
+          "lng": -34.904895
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "linha": "125",
+      "pontos": [
+        {
+          "lat": -7.909315,
+          "lng": -34.919976
+        },
+        {
+          "lat": -8.060499,
+          "lng": -34.766518
+        },
+        {
+          "lat": -7.973204,
+          "lng": -34.928458
+        },
+        {
+          "lat": -7.978877,
+          "lng": -34.790209
+        },
+        {
+          "lat": -7.925532,
+          "lng": -34.805641
+        },
+        {
+          "lat": -8.062106,
+          "lng": -34.845124
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "linha": "126",
+      "pontos": [
+        {
+          "lat": -7.925373,
+          "lng": -34.918213
+        },
+        {
+          "lat": -8.081925,
+          "lng": -34.862632
+        },
+        {
+          "lat": -7.96976,
+          "lng": -34.784882
+        },
+        {
+          "lat": -7.996448,
+          "lng": -34.920091
+        },
+        {
+          "lat": -8.057454,
+          "lng": -34.888138
+        },
+        {
+          "lat": -8.024044,
+          "lng": -34.893845
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "linha": "127",
+      "pontos": [
+        {
+          "lat": -8.037226,
+          "lng": -34.945687
+        },
+        {
+          "lat": -7.926035,
+          "lng": -34.877688
+        },
+        {
+          "lat": -7.970284,
+          "lng": -34.924982
+        },
+        {
+          "lat": -7.914169,
+          "lng": -34.76206
+        },
+        {
+          "lat": -8.07479,
+          "lng": -34.88514
+        },
+        {
+          "lat": -8.096983,
+          "lng": -34.754611
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "linha": "128",
+      "pontos": [
+        {
+          "lat": -8.080886,
+          "lng": -34.885579
+        },
+        {
+          "lat": -7.936571,
+          "lng": -34.838404
+        },
+        {
+          "lat": -7.905443,
+          "lng": -34.859155
+        },
+        {
+          "lat": -8.031924,
+          "lng": -34.806794
+        },
+        {
+          "lat": -8.056591,
+          "lng": -34.845989
+        },
+        {
+          "lat": -7.986838,
+          "lng": -34.851235
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "linha": "129",
+      "pontos": [
+        {
+          "lat": -7.97113,
+          "lng": -34.796569
+        },
+        {
+          "lat": -7.982872,
+          "lng": -34.899837
+        },
+        {
+          "lat": -8.059436,
+          "lng": -34.769937
+        },
+        {
+          "lat": -8.059557,
+          "lng": -34.882257
+        },
+        {
+          "lat": -7.929511,
+          "lng": -34.789869
+        },
+        {
+          "lat": -7.923447,
+          "lng": -34.757408
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "linha": "130",
+      "pontos": [
+        {
+          "lat": -7.969507,
+          "lng": -34.874926
+        },
+        {
+          "lat": -8.018531,
+          "lng": -34.767628
+        },
+        {
+          "lat": -8.005163,
+          "lng": -34.784373
+        },
+        {
+          "lat": -7.968431,
+          "lng": -34.769026
+        },
+        {
+          "lat": -7.952996,
+          "lng": -34.940318
+        },
+        {
+          "lat": -8.036069,
+          "lng": -34.949043
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "linha": "131",
+      "pontos": [
+        {
+          "lat": -7.953936,
+          "lng": -34.860884
+        },
+        {
+          "lat": -8.085357,
+          "lng": -34.84336
+        },
+        {
+          "lat": -7.966115,
+          "lng": -34.791684
+        },
+        {
+          "lat": -7.999997,
+          "lng": -34.854341
+        },
+        {
+          "lat": -8.097368,
+          "lng": -34.795456
+        },
+        {
+          "lat": -7.953398,
+          "lng": -34.880378
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "linha": "132",
+      "pontos": [
+        {
+          "lat": -7.976547,
+          "lng": -34.859373
+        },
+        {
+          "lat": -7.936562,
+          "lng": -34.862708
+        },
+        {
+          "lat": -8.077516,
+          "lng": -34.801246
+        },
+        {
+          "lat": -8.081032,
+          "lng": -34.835274
+        },
+        {
+          "lat": -8.036793,
+          "lng": -34.915773
+        },
+        {
+          "lat": -8.086385,
+          "lng": -34.938254
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "linha": "133",
+      "pontos": [
+        {
+          "lat": -7.924931,
+          "lng": -34.830766
+        },
+        {
+          "lat": -8.077837,
+          "lng": -34.805752
+        },
+        {
+          "lat": -7.966543,
+          "lng": -34.887009
+        },
+        {
+          "lat": -7.991015,
+          "lng": -34.890829
+        },
+        {
+          "lat": -8.093656,
+          "lng": -34.861621
+        },
+        {
+          "lat": -7.959045,
+          "lng": -34.755132
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "linha": "134",
+      "pontos": [
+        {
+          "lat": -7.983892,
+          "lng": -34.808473
+        },
+        {
+          "lat": -8.013448,
+          "lng": -34.93682
+        },
+        {
+          "lat": -7.907401,
+          "lng": -34.752375
+        },
+        {
+          "lat": -7.926614,
+          "lng": -34.903789
+        },
+        {
+          "lat": -7.921913,
+          "lng": -34.916655
+        },
+        {
+          "lat": -7.909311,
+          "lng": -34.933086
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "linha": "135",
+      "pontos": [
+        {
+          "lat": -8.016046,
+          "lng": -34.942305
+        },
+        {
+          "lat": -7.960434,
+          "lng": -34.771977
+        },
+        {
+          "lat": -8.056205,
+          "lng": -34.842999
+        },
+        {
+          "lat": -7.968369,
+          "lng": -34.869039
+        },
+        {
+          "lat": -8.06281,
+          "lng": -34.827506
+        },
+        {
+          "lat": -7.998318,
+          "lng": -34.853385
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "linha": "136",
+      "pontos": [
+        {
+          "lat": -7.945222,
+          "lng": -34.766236
+        },
+        {
+          "lat": -7.983919,
+          "lng": -34.91683
+        },
+        {
+          "lat": -7.936697,
+          "lng": -34.770937
+        },
+        {
+          "lat": -7.927237,
+          "lng": -34.762479
+        },
+        {
+          "lat": -8.022948,
+          "lng": -34.922587
+        },
+        {
+          "lat": -7.957157,
+          "lng": -34.804443
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "linha": "137",
+      "pontos": [
+        {
+          "lat": -7.9741,
+          "lng": -34.935936
+        },
+        {
+          "lat": -7.997438,
+          "lng": -34.845229
+        },
+        {
+          "lat": -8.015636,
+          "lng": -34.891684
+        },
+        {
+          "lat": -7.940533,
+          "lng": -34.792893
+        },
+        {
+          "lat": -7.95107,
+          "lng": -34.931465
+        },
+        {
+          "lat": -8.005551,
+          "lng": -34.758456
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "linha": "138",
+      "pontos": [
+        {
+          "lat": -8.014011,
+          "lng": -34.9069
+        },
+        {
+          "lat": -8.034257,
+          "lng": -34.778227
+        },
+        {
+          "lat": -7.928017,
+          "lng": -34.81678
+        },
+        {
+          "lat": -8.05719,
+          "lng": -34.830302
+        },
+        {
+          "lat": -7.978642,
+          "lng": -34.755202
+        },
+        {
+          "lat": -8.040514,
+          "lng": -34.923456
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "linha": "139",
+      "pontos": [
+        {
+          "lat": -8.007211,
+          "lng": -34.779054
+        },
+        {
+          "lat": -7.900429,
+          "lng": -34.801093
+        },
+        {
+          "lat": -7.98402,
+          "lng": -34.886299
+        },
+        {
+          "lat": -7.913532,
+          "lng": -34.750857
+        },
+        {
+          "lat": -8.073896,
+          "lng": -34.936615
+        },
+        {
+          "lat": -8.028772,
+          "lng": -34.845072
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "linha": "140",
+      "pontos": [
+        {
+          "lat": -7.960695,
+          "lng": -34.856105
+        },
+        {
+          "lat": -7.900823,
+          "lng": -34.76738
+        },
+        {
+          "lat": -7.986653,
+          "lng": -34.757363
+        },
+        {
+          "lat": -7.931538,
+          "lng": -34.896195
+        },
+        {
+          "lat": -7.936419,
+          "lng": -34.916104
+        },
+        {
+          "lat": -7.98783,
+          "lng": -34.845297
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "linha": "141",
+      "pontos": [
+        {
+          "lat": -8.04807,
+          "lng": -34.857848
+        },
+        {
+          "lat": -8.054536,
+          "lng": -34.799967
+        },
+        {
+          "lat": -8.095103,
+          "lng": -34.853666
+        },
+        {
+          "lat": -8.044358,
+          "lng": -34.7581
+        },
+        {
+          "lat": -7.907066,
+          "lng": -34.929
+        },
+        {
+          "lat": -7.92784,
+          "lng": -34.880761
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "linha": "142",
+      "pontos": [
+        {
+          "lat": -8.089274,
+          "lng": -34.784549
+        },
+        {
+          "lat": -8.060955,
+          "lng": -34.862294
+        },
+        {
+          "lat": -8.024773,
+          "lng": -34.883278
+        },
+        {
+          "lat": -8.009476,
+          "lng": -34.869151
+        },
+        {
+          "lat": -8.04537,
+          "lng": -34.931383
+        },
+        {
+          "lat": -8.085045,
+          "lng": -34.887197
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "linha": "143",
+      "pontos": [
+        {
+          "lat": -7.970295,
+          "lng": -34.880152
+        },
+        {
+          "lat": -8.069143,
+          "lng": -34.904238
+        },
+        {
+          "lat": -7.946745,
+          "lng": -34.875603
+        },
+        {
+          "lat": -8.016992,
+          "lng": -34.753358
+        },
+        {
+          "lat": -7.913384,
+          "lng": -34.780944
+        },
+        {
+          "lat": -8.027122,
+          "lng": -34.787162
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "linha": "144",
+      "pontos": [
+        {
+          "lat": -7.96886,
+          "lng": -34.938028
+        },
+        {
+          "lat": -7.99051,
+          "lng": -34.80884
+        },
+        {
+          "lat": -8.073317,
+          "lng": -34.949015
+        },
+        {
+          "lat": -8.02121,
+          "lng": -34.945491
+        },
+        {
+          "lat": -8.033553,
+          "lng": -34.899914
+        },
+        {
+          "lat": -8.092894,
+          "lng": -34.797154
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "linha": "145",
+      "pontos": [
+        {
+          "lat": -8.061331,
+          "lng": -34.931057
+        },
+        {
+          "lat": -7.991925,
+          "lng": -34.84044
+        },
+        {
+          "lat": -7.909351,
+          "lng": -34.877206
+        },
+        {
+          "lat": -7.984443,
+          "lng": -34.920777
+        },
+        {
+          "lat": -7.902686,
+          "lng": -34.790607
+        },
+        {
+          "lat": -7.91751,
+          "lng": -34.879017
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "linha": "146",
+      "pontos": [
+        {
+          "lat": -8.018895,
+          "lng": -34.875119
+        },
+        {
+          "lat": -8.026363,
+          "lng": -34.896776
+        },
+        {
+          "lat": -7.955668,
+          "lng": -34.822777
+        },
+        {
+          "lat": -8.069667,
+          "lng": -34.933425
+        },
+        {
+          "lat": -8.019234,
+          "lng": -34.940228
+        },
+        {
+          "lat": -8.067107,
+          "lng": -34.846037
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "linha": "147",
+      "pontos": [
+        {
+          "lat": -7.99504,
+          "lng": -34.817735
+        },
+        {
+          "lat": -7.960059,
+          "lng": -34.790772
+        },
+        {
+          "lat": -7.935004,
+          "lng": -34.777213
+        },
+        {
+          "lat": -7.914782,
+          "lng": -34.80168
+        },
+        {
+          "lat": -7.998421,
+          "lng": -34.94893
+        },
+        {
+          "lat": -7.997304,
+          "lng": -34.772036
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "linha": "148",
+      "pontos": [
+        {
+          "lat": -8.048648,
+          "lng": -34.921089
+        },
+        {
+          "lat": -8.080692,
+          "lng": -34.907296
+        },
+        {
+          "lat": -8.093325,
+          "lng": -34.811659
+        },
+        {
+          "lat": -7.948913,
+          "lng": -34.837768
+        },
+        {
+          "lat": -8.077489,
+          "lng": -34.911881
+        },
+        {
+          "lat": -7.918999,
+          "lng": -34.752912
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "linha": "149",
+      "pontos": [
+        {
+          "lat": -7.923753,
+          "lng": -34.877624
+        },
+        {
+          "lat": -7.958434,
+          "lng": -34.861279
+        },
+        {
+          "lat": -7.901978,
+          "lng": -34.905938
+        },
+        {
+          "lat": -7.999391,
+          "lng": -34.918255
+        },
+        {
+          "lat": -8.015981,
+          "lng": -34.774235
+        },
+        {
+          "lat": -8.084065,
+          "lng": -34.824678
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "linha": "150",
+      "pontos": [
+        {
+          "lat": -8.041672,
+          "lng": -34.852724
+        },
+        {
+          "lat": -8.086578,
+          "lng": -34.847305
+        },
+        {
+          "lat": -7.964307,
+          "lng": -34.92325
+        },
+        {
+          "lat": -7.954953,
+          "lng": -34.86275
+        },
+        {
+          "lat": -7.925668,
+          "lng": -34.822285
+        },
+        {
+          "lat": -8.022571,
+          "lng": -34.778948
+        }
       ]
     }
   ],
-
-  "transito": [
-    { "id": 1, "regiao": "Centro", "status": "Moderado", "velocidadeMedia": 25 },
-    { "id": 2, "regiao": "Zona Sul", "status": "Pesado", "velocidadeMedia": 12 },
-    { "id": 3, "regiao": "Zona Norte", "status": "Livre", "velocidadeMedia": 42 }
-  ],
-
   "eventosTransito": [
-    { "id": 1, "tipo": "acidente", "regiao": "Centro", "descricao": "Colisão leve na Av. Central", "hora": "09:15" },
-    { "id": 2, "tipo": "obra", "regiao": "Zona Sul", "descricao": "Pista interditada parcialmente", "hora": "08:30" },
-    { "id": 3, "tipo": "bloqueio", "regiao": "Zona Norte", "descricao": "Manifestação local", "hora": "10:00" }
+    {
+      "id": 1,
+      "tipo": "acidente",
+      "regiao": "Região 41",
+      "descricao": "Evento 1 na via",
+      "hora": "09:02"
+    },
+    {
+      "id": 2,
+      "tipo": "bloqueio",
+      "regiao": "Região 3",
+      "descricao": "Evento 2 na via",
+      "hora": "10:04"
+    },
+    {
+      "id": 3,
+      "tipo": "bloqueio",
+      "regiao": "Região 5",
+      "descricao": "Evento 3 na via",
+      "hora": "11:06"
+    },
+    {
+      "id": 4,
+      "tipo": "obra",
+      "regiao": "Região 20",
+      "descricao": "Evento 4 na via",
+      "hora": "12:08"
+    },
+    {
+      "id": 5,
+      "tipo": "acidente",
+      "regiao": "Região 33",
+      "descricao": "Evento 5 na via",
+      "hora": "13:10"
+    },
+    {
+      "id": 6,
+      "tipo": "bloqueio",
+      "regiao": "Região 39",
+      "descricao": "Evento 6 na via",
+      "hora": "14:12"
+    },
+    {
+      "id": 7,
+      "tipo": "obra",
+      "regiao": "Região 20",
+      "descricao": "Evento 7 na via",
+      "hora": "15:14"
+    },
+    {
+      "id": 8,
+      "tipo": "obra",
+      "regiao": "Região 46",
+      "descricao": "Evento 8 na via",
+      "hora": "16:16"
+    },
+    {
+      "id": 9,
+      "tipo": "obra",
+      "regiao": "Região 45",
+      "descricao": "Evento 9 na via",
+      "hora": "17:18"
+    },
+    {
+      "id": 10,
+      "tipo": "obra",
+      "regiao": "Região 49",
+      "descricao": "Evento 10 na via",
+      "hora": "08:20"
+    },
+    {
+      "id": 11,
+      "tipo": "obra",
+      "regiao": "Região 47",
+      "descricao": "Evento 11 na via",
+      "hora": "09:22"
+    },
+    {
+      "id": 12,
+      "tipo": "bloqueio",
+      "regiao": "Região 27",
+      "descricao": "Evento 12 na via",
+      "hora": "10:24"
+    },
+    {
+      "id": 13,
+      "tipo": "obra",
+      "regiao": "Região 23",
+      "descricao": "Evento 13 na via",
+      "hora": "11:26"
+    },
+    {
+      "id": 14,
+      "tipo": "acidente",
+      "regiao": "Região 8",
+      "descricao": "Evento 14 na via",
+      "hora": "12:28"
+    },
+    {
+      "id": 15,
+      "tipo": "bloqueio",
+      "regiao": "Região 32",
+      "descricao": "Evento 15 na via",
+      "hora": "13:30"
+    },
+    {
+      "id": 16,
+      "tipo": "obra",
+      "regiao": "Região 15",
+      "descricao": "Evento 16 na via",
+      "hora": "14:32"
+    },
+    {
+      "id": 17,
+      "tipo": "bloqueio",
+      "regiao": "Região 44",
+      "descricao": "Evento 17 na via",
+      "hora": "15:34"
+    },
+    {
+      "id": 18,
+      "tipo": "obra",
+      "regiao": "Região 25",
+      "descricao": "Evento 18 na via",
+      "hora": "16:36"
+    },
+    {
+      "id": 19,
+      "tipo": "acidente",
+      "regiao": "Região 44",
+      "descricao": "Evento 19 na via",
+      "hora": "17:38"
+    },
+    {
+      "id": 20,
+      "tipo": "bloqueio",
+      "regiao": "Região 6",
+      "descricao": "Evento 20 na via",
+      "hora": "08:40"
+    },
+    {
+      "id": 21,
+      "tipo": "bloqueio",
+      "regiao": "Região 1",
+      "descricao": "Evento 21 na via",
+      "hora": "09:42"
+    },
+    {
+      "id": 22,
+      "tipo": "bloqueio",
+      "regiao": "Região 32",
+      "descricao": "Evento 22 na via",
+      "hora": "10:44"
+    },
+    {
+      "id": 23,
+      "tipo": "acidente",
+      "regiao": "Região 4",
+      "descricao": "Evento 23 na via",
+      "hora": "11:46"
+    },
+    {
+      "id": 24,
+      "tipo": "obra",
+      "regiao": "Região 2",
+      "descricao": "Evento 24 na via",
+      "hora": "12:48"
+    },
+    {
+      "id": 25,
+      "tipo": "acidente",
+      "regiao": "Região 40",
+      "descricao": "Evento 25 na via",
+      "hora": "13:50"
+    },
+    {
+      "id": 26,
+      "tipo": "bloqueio",
+      "regiao": "Região 32",
+      "descricao": "Evento 26 na via",
+      "hora": "14:52"
+    },
+    {
+      "id": 27,
+      "tipo": "bloqueio",
+      "regiao": "Região 40",
+      "descricao": "Evento 27 na via",
+      "hora": "15:54"
+    },
+    {
+      "id": 28,
+      "tipo": "obra",
+      "regiao": "Região 19",
+      "descricao": "Evento 28 na via",
+      "hora": "16:56"
+    },
+    {
+      "id": 29,
+      "tipo": "bloqueio",
+      "regiao": "Região 18",
+      "descricao": "Evento 29 na via",
+      "hora": "17:58"
+    },
+    {
+      "id": 30,
+      "tipo": "acidente",
+      "regiao": "Região 49",
+      "descricao": "Evento 30 na via",
+      "hora": "08:00"
+    },
+    {
+      "id": 31,
+      "tipo": "acidente",
+      "regiao": "Região 19",
+      "descricao": "Evento 31 na via",
+      "hora": "09:02"
+    },
+    {
+      "id": 32,
+      "tipo": "obra",
+      "regiao": "Região 19",
+      "descricao": "Evento 32 na via",
+      "hora": "10:04"
+    },
+    {
+      "id": 33,
+      "tipo": "obra",
+      "regiao": "Região 28",
+      "descricao": "Evento 33 na via",
+      "hora": "11:06"
+    },
+    {
+      "id": 34,
+      "tipo": "bloqueio",
+      "regiao": "Região 23",
+      "descricao": "Evento 34 na via",
+      "hora": "12:08"
+    },
+    {
+      "id": 35,
+      "tipo": "acidente",
+      "regiao": "Região 33",
+      "descricao": "Evento 35 na via",
+      "hora": "13:10"
+    },
+    {
+      "id": 36,
+      "tipo": "obra",
+      "regiao": "Região 17",
+      "descricao": "Evento 36 na via",
+      "hora": "14:12"
+    },
+    {
+      "id": 37,
+      "tipo": "bloqueio",
+      "regiao": "Região 49",
+      "descricao": "Evento 37 na via",
+      "hora": "15:14"
+    },
+    {
+      "id": 38,
+      "tipo": "acidente",
+      "regiao": "Região 47",
+      "descricao": "Evento 38 na via",
+      "hora": "16:16"
+    },
+    {
+      "id": 39,
+      "tipo": "acidente",
+      "regiao": "Região 20",
+      "descricao": "Evento 39 na via",
+      "hora": "17:18"
+    },
+    {
+      "id": 40,
+      "tipo": "acidente",
+      "regiao": "Região 20",
+      "descricao": "Evento 40 na via",
+      "hora": "08:20"
+    },
+    {
+      "id": 41,
+      "tipo": "acidente",
+      "regiao": "Região 15",
+      "descricao": "Evento 41 na via",
+      "hora": "09:22"
+    },
+    {
+      "id": 42,
+      "tipo": "obra",
+      "regiao": "Região 26",
+      "descricao": "Evento 42 na via",
+      "hora": "10:24"
+    },
+    {
+      "id": 43,
+      "tipo": "bloqueio",
+      "regiao": "Região 15",
+      "descricao": "Evento 43 na via",
+      "hora": "11:26"
+    },
+    {
+      "id": 44,
+      "tipo": "acidente",
+      "regiao": "Região 50",
+      "descricao": "Evento 44 na via",
+      "hora": "12:28"
+    },
+    {
+      "id": 45,
+      "tipo": "acidente",
+      "regiao": "Região 22",
+      "descricao": "Evento 45 na via",
+      "hora": "13:30"
+    },
+    {
+      "id": 46,
+      "tipo": "bloqueio",
+      "regiao": "Região 39",
+      "descricao": "Evento 46 na via",
+      "hora": "14:32"
+    },
+    {
+      "id": 47,
+      "tipo": "obra",
+      "regiao": "Região 8",
+      "descricao": "Evento 47 na via",
+      "hora": "15:34"
+    },
+    {
+      "id": 48,
+      "tipo": "acidente",
+      "regiao": "Região 31",
+      "descricao": "Evento 48 na via",
+      "hora": "16:36"
+    },
+    {
+      "id": 49,
+      "tipo": "obra",
+      "regiao": "Região 19",
+      "descricao": "Evento 49 na via",
+      "hora": "17:38"
+    },
+    {
+      "id": 50,
+      "tipo": "acidente",
+      "regiao": "Região 44",
+      "descricao": "Evento 50 na via",
+      "hora": "08:40"
+    }
   ],
-
   "previsaoChegada": [
-    { "id": 1, "linha": "101", "paradaId": 1, "chegadaPrevista": "07:05" },
-    { "id": 2, "linha": "101", "paradaId": 2, "chegadaPrevista": "07:15" },
-    { "id": 3, "linha": "202", "paradaId": 4, "chegadaPrevista": "08:40" }
+    {
+      "id": 1,
+      "linha": "114",
+      "paradaId": 18,
+      "chegadaPrevista": "07:04"
+    },
+    {
+      "id": 2,
+      "linha": "119",
+      "paradaId": 41,
+      "chegadaPrevista": "08:08"
+    },
+    {
+      "id": 3,
+      "linha": "120",
+      "paradaId": 27,
+      "chegadaPrevista": "09:12"
+    },
+    {
+      "id": 4,
+      "linha": "124",
+      "paradaId": 7,
+      "chegadaPrevista": "10:16"
+    },
+    {
+      "id": 5,
+      "linha": "142",
+      "paradaId": 40,
+      "chegadaPrevista": "11:20"
+    },
+    {
+      "id": 6,
+      "linha": "139",
+      "paradaId": 45,
+      "chegadaPrevista": "12:24"
+    },
+    {
+      "id": 7,
+      "linha": "118",
+      "paradaId": 16,
+      "chegadaPrevista": "13:28"
+    },
+    {
+      "id": 8,
+      "linha": "136",
+      "paradaId": 49,
+      "chegadaPrevista": "14:32"
+    },
+    {
+      "id": 9,
+      "linha": "111",
+      "paradaId": 5,
+      "chegadaPrevista": "15:36"
+    },
+    {
+      "id": 10,
+      "linha": "103",
+      "paradaId": 10,
+      "chegadaPrevista": "06:40"
+    },
+    {
+      "id": 11,
+      "linha": "135",
+      "paradaId": 36,
+      "chegadaPrevista": "07:44"
+    },
+    {
+      "id": 12,
+      "linha": "137",
+      "paradaId": 39,
+      "chegadaPrevista": "08:48"
+    },
+    {
+      "id": 13,
+      "linha": "133",
+      "paradaId": 10,
+      "chegadaPrevista": "09:52"
+    },
+    {
+      "id": 14,
+      "linha": "144",
+      "paradaId": 24,
+      "chegadaPrevista": "10:56"
+    },
+    {
+      "id": 15,
+      "linha": "107",
+      "paradaId": 12,
+      "chegadaPrevista": "11:00"
+    },
+    {
+      "id": 16,
+      "linha": "111",
+      "paradaId": 46,
+      "chegadaPrevista": "12:04"
+    },
+    {
+      "id": 17,
+      "linha": "103",
+      "paradaId": 20,
+      "chegadaPrevista": "13:08"
+    },
+    {
+      "id": 18,
+      "linha": "119",
+      "paradaId": 46,
+      "chegadaPrevista": "14:12"
+    },
+    {
+      "id": 19,
+      "linha": "125",
+      "paradaId": 36,
+      "chegadaPrevista": "15:16"
+    },
+    {
+      "id": 20,
+      "linha": "115",
+      "paradaId": 38,
+      "chegadaPrevista": "06:20"
+    },
+    {
+      "id": 21,
+      "linha": "135",
+      "paradaId": 42,
+      "chegadaPrevista": "07:24"
+    },
+    {
+      "id": 22,
+      "linha": "120",
+      "paradaId": 36,
+      "chegadaPrevista": "08:28"
+    },
+    {
+      "id": 23,
+      "linha": "150",
+      "paradaId": 14,
+      "chegadaPrevista": "09:32"
+    },
+    {
+      "id": 24,
+      "linha": "136",
+      "paradaId": 7,
+      "chegadaPrevista": "10:36"
+    },
+    {
+      "id": 25,
+      "linha": "106",
+      "paradaId": 45,
+      "chegadaPrevista": "11:40"
+    },
+    {
+      "id": 26,
+      "linha": "146",
+      "paradaId": 3,
+      "chegadaPrevista": "12:44"
+    },
+    {
+      "id": 27,
+      "linha": "118",
+      "paradaId": 11,
+      "chegadaPrevista": "13:48"
+    },
+    {
+      "id": 28,
+      "linha": "116",
+      "paradaId": 21,
+      "chegadaPrevista": "14:52"
+    },
+    {
+      "id": 29,
+      "linha": "121",
+      "paradaId": 20,
+      "chegadaPrevista": "15:56"
+    },
+    {
+      "id": 30,
+      "linha": "121",
+      "paradaId": 31,
+      "chegadaPrevista": "06:00"
+    },
+    {
+      "id": 31,
+      "linha": "143",
+      "paradaId": 35,
+      "chegadaPrevista": "07:04"
+    },
+    {
+      "id": 32,
+      "linha": "150",
+      "paradaId": 22,
+      "chegadaPrevista": "08:08"
+    },
+    {
+      "id": 33,
+      "linha": "143",
+      "paradaId": 40,
+      "chegadaPrevista": "09:12"
+    },
+    {
+      "id": 34,
+      "linha": "123",
+      "paradaId": 19,
+      "chegadaPrevista": "10:16"
+    },
+    {
+      "id": 35,
+      "linha": "135",
+      "paradaId": 29,
+      "chegadaPrevista": "11:20"
+    },
+    {
+      "id": 36,
+      "linha": "112",
+      "paradaId": 43,
+      "chegadaPrevista": "12:24"
+    },
+    {
+      "id": 37,
+      "linha": "108",
+      "paradaId": 26,
+      "chegadaPrevista": "13:28"
+    },
+    {
+      "id": 38,
+      "linha": "116",
+      "paradaId": 16,
+      "chegadaPrevista": "14:32"
+    },
+    {
+      "id": 39,
+      "linha": "125",
+      "paradaId": 27,
+      "chegadaPrevista": "15:36"
+    },
+    {
+      "id": 40,
+      "linha": "111",
+      "paradaId": 35,
+      "chegadaPrevista": "06:40"
+    },
+    {
+      "id": 41,
+      "linha": "145",
+      "paradaId": 8,
+      "chegadaPrevista": "07:44"
+    },
+    {
+      "id": 42,
+      "linha": "109",
+      "paradaId": 44,
+      "chegadaPrevista": "08:48"
+    },
+    {
+      "id": 43,
+      "linha": "116",
+      "paradaId": 44,
+      "chegadaPrevista": "09:52"
+    },
+    {
+      "id": 44,
+      "linha": "145",
+      "paradaId": 14,
+      "chegadaPrevista": "10:56"
+    },
+    {
+      "id": 45,
+      "linha": "132",
+      "paradaId": 20,
+      "chegadaPrevista": "11:00"
+    },
+    {
+      "id": 46,
+      "linha": "144",
+      "paradaId": 16,
+      "chegadaPrevista": "12:04"
+    },
+    {
+      "id": 47,
+      "linha": "137",
+      "paradaId": 21,
+      "chegadaPrevista": "13:08"
+    },
+    {
+      "id": 48,
+      "linha": "105",
+      "paradaId": 24,
+      "chegadaPrevista": "14:12"
+    },
+    {
+      "id": 49,
+      "linha": "109",
+      "paradaId": 49,
+      "chegadaPrevista": "15:16"
+    },
+    {
+      "id": 50,
+      "linha": "123",
+      "paradaId": 18,
+      "chegadaPrevista": "06:20"
+    }
   ],
-
   "regioes": [
-    { "id": 1, "nome": "Centro", "congestionamento": 0.6 },
-    { "id": 2, "nome": "Zona Norte", "congestionamento": 0.1 },
-    { "id": 3, "nome": "Zona Sul", "congestionamento": 0.8 },
-    { "id": 4, "nome": "Zona Oeste", "congestionamento": 0.3 }
+    {
+      "id": 1,
+      "nome": "Região 1",
+      "congestionamento": 0.36
+    },
+    {
+      "id": 2,
+      "nome": "Região 2",
+      "congestionamento": 0.14
+    },
+    {
+      "id": 3,
+      "nome": "Região 3",
+      "congestionamento": 0.01
+    },
+    {
+      "id": 4,
+      "nome": "Região 4",
+      "congestionamento": 0.54
+    },
+    {
+      "id": 5,
+      "nome": "Região 5",
+      "congestionamento": 0.23
+    },
+    {
+      "id": 6,
+      "nome": "Região 6",
+      "congestionamento": 0.74
+    },
+    {
+      "id": 7,
+      "nome": "Região 7",
+      "congestionamento": 0.89
+    },
+    {
+      "id": 8,
+      "nome": "Região 8",
+      "congestionamento": 0.35
+    },
+    {
+      "id": 9,
+      "nome": "Região 9",
+      "congestionamento": 0.66
+    },
+    {
+      "id": 10,
+      "nome": "Região 10",
+      "congestionamento": 0.74
+    },
+    {
+      "id": 11,
+      "nome": "Região 11",
+      "congestionamento": 0.81
+    },
+    {
+      "id": 12,
+      "nome": "Região 12",
+      "congestionamento": 0.67
+    },
+    {
+      "id": 13,
+      "nome": "Região 13",
+      "congestionamento": 0.9
+    },
+    {
+      "id": 14,
+      "nome": "Região 14",
+      "congestionamento": 0.32
+    },
+    {
+      "id": 15,
+      "nome": "Região 15",
+      "congestionamento": 0.42
+    },
+    {
+      "id": 16,
+      "nome": "Região 16",
+      "congestionamento": 0.44
+    },
+    {
+      "id": 17,
+      "nome": "Região 17",
+      "congestionamento": 0.53
+    },
+    {
+      "id": 18,
+      "nome": "Região 18",
+      "congestionamento": 0.98
+    },
+    {
+      "id": 19,
+      "nome": "Região 19",
+      "congestionamento": 0.75
+    },
+    {
+      "id": 20,
+      "nome": "Região 20",
+      "congestionamento": 0.78
+    },
+    {
+      "id": 21,
+      "nome": "Região 21",
+      "congestionamento": 0.75
+    },
+    {
+      "id": 22,
+      "nome": "Região 22",
+      "congestionamento": 0.45
+    },
+    {
+      "id": 23,
+      "nome": "Região 23",
+      "congestionamento": 0.84
+    },
+    {
+      "id": 24,
+      "nome": "Região 24",
+      "congestionamento": 0.04
+    },
+    {
+      "id": 25,
+      "nome": "Região 25",
+      "congestionamento": 0.15
+    },
+    {
+      "id": 26,
+      "nome": "Região 26",
+      "congestionamento": 0.54
+    },
+    {
+      "id": 27,
+      "nome": "Região 27",
+      "congestionamento": 0.88
+    },
+    {
+      "id": 28,
+      "nome": "Região 28",
+      "congestionamento": 0.25
+    },
+    {
+      "id": 29,
+      "nome": "Região 29",
+      "congestionamento": 0.99
+    },
+    {
+      "id": 30,
+      "nome": "Região 30",
+      "congestionamento": 0.82
+    },
+    {
+      "id": 31,
+      "nome": "Região 31",
+      "congestionamento": 0.78
+    },
+    {
+      "id": 32,
+      "nome": "Região 32",
+      "congestionamento": 0.39
+    },
+    {
+      "id": 33,
+      "nome": "Região 33",
+      "congestionamento": 0.34
+    },
+    {
+      "id": 34,
+      "nome": "Região 34",
+      "congestionamento": 0.37
+    },
+    {
+      "id": 35,
+      "nome": "Região 35",
+      "congestionamento": 0.51
+    },
+    {
+      "id": 36,
+      "nome": "Região 36",
+      "congestionamento": 0.75
+    },
+    {
+      "id": 37,
+      "nome": "Região 37",
+      "congestionamento": 0.41
+    },
+    {
+      "id": 38,
+      "nome": "Região 38",
+      "congestionamento": 0.53
+    },
+    {
+      "id": 39,
+      "nome": "Região 39",
+      "congestionamento": 1.0
+    },
+    {
+      "id": 40,
+      "nome": "Região 40",
+      "congestionamento": 0.57
+    },
+    {
+      "id": 41,
+      "nome": "Região 41",
+      "congestionamento": 0.34
+    },
+    {
+      "id": 42,
+      "nome": "Região 42",
+      "congestionamento": 0.53
+    },
+    {
+      "id": 43,
+      "nome": "Região 43",
+      "congestionamento": 0.53
+    },
+    {
+      "id": 44,
+      "nome": "Região 44",
+      "congestionamento": 0.47
+    },
+    {
+      "id": 45,
+      "nome": "Região 45",
+      "congestionamento": 0.92
+    },
+    {
+      "id": 46,
+      "nome": "Região 46",
+      "congestionamento": 0.43
+    },
+    {
+      "id": 47,
+      "nome": "Região 47",
+      "congestionamento": 0.46
+    },
+    {
+      "id": 48,
+      "nome": "Região 48",
+      "congestionamento": 0.64
+    },
+    {
+      "id": 49,
+      "nome": "Região 49",
+      "congestionamento": 0.61
+    },
+    {
+      "id": 50,
+      "nome": "Região 50",
+      "congestionamento": 0.59
+    }
   ]
 }
