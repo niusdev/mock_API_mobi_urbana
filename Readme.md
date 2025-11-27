@@ -97,10 +97,6 @@ Dados gerais sobre o status do trânsito nas regiões.
 - **status**: Condição do trânsito (leve, moderado, intenso).  
 - **velocidadeMedia**: Velocidade média dos veículos na região.
 
-# Documentação dos Dados Complementares de Mobilidade
-
-Este documento descreve a estrutura dos novos objetos adicionados ao conjunto de dados de mobilidade urbana.
-
 ---
 
 ## rotasOnibus
