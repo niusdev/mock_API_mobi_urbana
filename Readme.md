@@ -97,6 +97,48 @@ Dados gerais sobre o status do trânsito nas regiões.
 - **status**: Condição do trânsito (leve, moderado, intenso).  
 - **velocidadeMedia**: Velocidade média dos veículos na região.
 
+# Documentação dos Dados Complementares de Mobilidade
+
+Este documento descreve a estrutura dos novos objetos adicionados ao conjunto de dados de mobilidade urbana.
+
+---
+
+## rotasOnibus
+Representa o trajeto geográfico de cada linha de ônibus.
+- **id**: Identificador único da rota.  
+- **linha**: Código da linha correspondente.  
+- **pontos**: Lista de coordenadas que compõem o percurso.  
+  - **lat**: Latitude do ponto.  
+  - **lng**: Longitude do ponto.
+
+---
+
+## eventosTransito
+Registra eventos que afetam o trânsito em determinadas regiões.
+- **id**: Identificador único do evento.  
+- **tipo**: Categoria do evento (ex.: acidente, obra, bloqueio).  
+- **regiao**: Região onde o evento ocorreu.  
+- **descricao**: Informações adicionais sobre o evento.  
+- **hora**: Horário em que o evento foi registrado.
+
+---
+
+## previsaoChegada
+Apresenta previsões de chegada dos ônibus às paradas.
+- **id**: Identificador único do registro.  
+- **linha**: Código da linha prevista.  
+- **paradaId**: Identificador da parada onde o ônibus chegará.  
+- **chegadaPrevista**: Horário estimado de chegada.
+
+---
+
+## regioes
+Informa condições gerais de áreas monitoradas.
+- **id**: Identificador único da região.  
+- **nome**: Nome da região.  
+- **congestionamento**: Índice numérico representando o nível de congestionamento.
+
+
 ---
 
 
