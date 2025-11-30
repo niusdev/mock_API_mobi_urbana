@@ -1,4 +1,4 @@
-# 📘 **Sistema de Mobilidade Urbana (Grupo F)**
+# 📘 **Sistema de Mobilidade Urbana**
 
 ## 🚌 Visão Geral
 
@@ -7,7 +7,7 @@ Este repositório reúne duas partes integradas:
 * **/api** → Mock API utilizando JSON Server ([acesse aqui](https://github.com/niusdev/mock_API_mobi_urbana));
 * **/panel** → Aplicação cliente, responsável por consumir os dados da API e exibir um painel de mobilidade urbana;
 
-O objetivo central é demonstrar **interoperabilidade**, consumo de dados em JSON e detecção de inconsistências em um ambiente distribuído.
+O objetivo central é demonstrar consumo de dados em JSON.
 
 ---
 
@@ -17,8 +17,7 @@ O objetivo central é demonstrar **interoperabilidade**, consumo de dados em JSO
 /
 ├── api/         → Mock API
 │   ├── db.json
-│   ├── package.json
-│   └── server.json
+│   └── package.json
 │
 └── panel/       → Painel Cliente
     ├── src/
@@ -49,17 +48,43 @@ A API ficará disponível em:
 
 👉 **[http://localhost:3000](http://localhost:3000)**
 
-### Endpoints principais
+### Endpoints disponíveis
 
-* `/linhas`
-* `/horariosOnibus`
-* `/paradas`
-* `/veiculos`
-* `/transito`
-* `/rotasOnibus`
-* `/eventosTransito`
-* `/previsaoChegada`
-* `/regioes`
+#### **Linhas de Ônibus**
+* `GET /linhas`
+* `GET /linhas/:id`
+
+#### **Paradas**
+* `GET /paradas`
+* `GET /paradas/:id`
+
+#### **Horários de Ônibus**
+* `GET /horariosOnibus`
+* `GET /horariosOnibus/:id`
+
+#### **Veículos**
+* `GET /veiculos`
+* `GET /veiculos/:id`
+
+#### **Rotas de Ônibus**
+* `GET /rotasOnibus`
+* `GET /rotasOnibus/:id`
+
+#### **Trânsito**
+* `GET /transito`
+* `GET /transito/:id`
+
+#### **Eventos de Trânsito**
+* `GET /eventosTransito`
+* `GET /eventosTransito/:id`
+
+#### **Previsão de Chegada (ETA)**
+* `GET /previsaoChegada`
+* `GET /previsaoChegada/:id`
+
+#### **Regiões**
+* `GET /regioes`
+* `GET /regioes/:id`
 
 ---
 
@@ -78,7 +103,7 @@ Aplicação disponível em:
 
 ---
 
-# 📡 **Funcionalidades do Painel – Grupo F**
+# 📡 **Funcionalidades do Painel**
 
 ### ✔ **1. Previsão de Chegada (ETA)**
 

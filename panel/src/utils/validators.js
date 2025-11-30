@@ -1,3 +1,5 @@
+// DOCS: Responsável pelas validações dos dados recebidos da API, detectando anomalias
+
 export function validarCoordenadas(v) {
   return (
     typeof v.lat === "number" &&
@@ -16,7 +18,6 @@ export function validarVelocidade(v) {
 export function validarETA(item) {
   const agora = new Date();
   const chegada = new Date(`1970-01-01T${item.chegadaPrevista}:00`);
-
   return chegada > agora;
 }
 

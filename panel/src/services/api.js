@@ -1,5 +1,7 @@
 import axios from "axios";
 
+// DOCS: Responsável por configurar a comunicação com a API backend
+
 export const API_URL = "http://localhost:3000";
 
 export const api = axios.create({
@@ -11,3 +13,4 @@ export const getVeiculos = () => api.get("/veiculos");
 export const getETA = () => api.get("/previsaoChegada");
 export const getTransito = () => api.get("/transito");
 export const getLinhas = () => api.get("/linhas");
+export const getParadas = () => api.get("/paradas");
