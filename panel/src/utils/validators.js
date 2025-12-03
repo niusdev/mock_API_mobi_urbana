@@ -12,16 +12,60 @@ export function validarCoordenadas(v) {
 }
 
 export function validarVelocidade(v) {
-  return v.velocidade >= 0 && v.velocidade <= 120;
+  return v.velocidade >= 0 && v.velocidade <= 100;
 }
 
-export function validarETA(item) {
-  const agora = new Date();
-  const chegada = new Date(`1970-01-01T${item.chegadaPrevista}:00`);
-  return chegada > agora;
+export function validarETA(item, serverTime) {
+  if (!/^\d{2}:\d{2}$/.test(item.chegadaPrevista)) {
+    return { valido: false, anomalia: true, motivo: "Formato inválido" };
+  }
+
+  const [h, m] = item.chegadaPrevista.split(":").map(Number);
+  if (h > 23 || m > 59) {
+    return { valido: false, anomalia: true, motivo: "Hora ou minuto inválido" };
+  }
+
+  const agoraUTC = new Date(serverTime);
+
+  const agoraBR = new Date(
+    agoraUTC.toLocaleString("en-US", { timeZone: "America/Sao_Paulo" })
+  );
+
+  const chegadaBR = new Date(agoraBR);
+  chegadaBR.setHours(h, m, 0, 0);
+
+  const valido = chegadaBR > agoraBR;
+
+  return {
+    valido,
+    anomalia: !valido,
+    motivo: !valido ? "ETA passado (ETA negativo)" : null
+  };
 }
 
-export function detectarAnomalias(veiculos, etas) {
+export function validarStatusVelocidade(v) {
+  // Se veículo está em manutenção, não pode ter velocidade > 0
+  if (v.status === "manutenção" && v.velocidade > 0) {
+    return {
+      tipo: "Movimento inconsistente",
+      motivo: `Veículo em manutenção não pode estar em movimento (velocidade = ${v.velocidade})`,
+      item: v
+    };
+  }
+
+  // Se veículo está parado, mas velocidade > 0, também pode ser inconsistente
+  if (v.status === "parado" && v.velocidade > 0) {
+    return {
+      tipo: "Velocidade incoerente",
+      motivo: `Veículo parado, mas velocidade = ${v.velocidade}`,
+      item: v
+    };
+  }
+
+  return null;
+}
+
+export function detectarAnomalias(veiculos, etas, serverTime) {
   const erros = [];
 
   veiculos.forEach((v) => {
@@ -31,11 +75,20 @@ export function detectarAnomalias(veiculos, etas) {
     if (!validarVelocidade(v)) {
       erros.push({ tipo: "Velocidade incoerente", item: v });
     }
+    const statusVelocidadeErro = validarStatusVelocidade(v);
+    if (statusVelocidadeErro) {
+      erros.push(statusVelocidadeErro);
+    }
   });
 
   etas.forEach((e) => {
-    if (!validarETA(e)) {
-      erros.push({ tipo: "ETA negativo", item: e });
+    const resultado = validarETA(e, serverTime);
+
+    if (resultado.anomalia) {
+      erros.push({
+        tipo: resultado.motivo,
+        item: e
+      });
     }
   });
 

@@ -40,13 +40,12 @@ export default function ETA({ itens }) {
           width: "70%",
           padding: "10px 16px",
           fontSize: 16,
-          marginBottom: 20,
           borderRadius: 8,
           border: "1px solid #555",
           background: "#111",
           color: "white",
           display: "block",
-          margin: "0 auto",
+          margin: "0 auto 20px auto",
         }}
       />
 

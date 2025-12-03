@@ -7,6 +7,7 @@ server.use(middlewares);
 
 server.use((req, res, next) => {
   res.header('X-Server-Time', new Date().toISOString());
+  res.header('Access-Control-Expose-Headers', 'X-Server-Time');
   next();
 });
 
