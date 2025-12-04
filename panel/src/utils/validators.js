@@ -15,31 +15,17 @@ export function validarVelocidade(v) {
   return v.velocidade >= 0 && v.velocidade <= 100;
 }
 
-export function validarETA(item, serverTime) {
-  if (!/^\d{2}:\d{2}$/.test(item.chegadaPrevista)) {
-    return { valido: false, anomalia: true, motivo: "Formato inválido" };
-  }
-
+export function validarETA(item) {
   const [h, m] = item.chegadaPrevista.split(":").map(Number);
-  if (h > 23 || m > 59) {
+
+  if (h > 23 || m > 59 || h < 0 || m < 0) {
     return { valido: false, anomalia: true, motivo: "Hora ou minuto inválido" };
   }
 
-  const agoraUTC = new Date(serverTime);
-
-  const agoraBR = new Date(
-    agoraUTC.toLocaleString("en-US", { timeZone: "America/Sao_Paulo" })
-  );
-
-  const chegadaBR = new Date(agoraBR);
-  chegadaBR.setHours(h, m, 0, 0);
-
-  const valido = chegadaBR > agoraBR;
-
   return {
-    valido,
-    anomalia: !valido,
-    motivo: !valido ? "ETA passado (ETA negativo)" : null
+    valido: true,
+    anomalia: false,
+    motivo: null
   };
 }
 
@@ -82,7 +68,7 @@ export function detectarAnomalias(veiculos, etas, serverTime) {
   });
 
   etas.forEach((e) => {
-    const resultado = validarETA(e, serverTime);
+    const resultado = validarETA(e);
 
     if (resultado.anomalia) {
       erros.push({

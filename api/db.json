@@ -3536,7 +3536,7 @@
       "id": 4,
       "linha": "124",
       "paradaId": 7,
-      "chegadaPrevista": "10:16"
+      "chegadaPrevista": "-10:16"
     },
     {
       "id": 5,
@@ -3554,7 +3554,7 @@
       "id": 7,
       "linha": "118",
       "paradaId": 16,
-      "chegadaPrevista": "13:28"
+      "chegadaPrevista": "-13:28"
     },
     {
       "id": 8,
